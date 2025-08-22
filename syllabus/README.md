@@ -180,7 +180,7 @@ Anyone can take the waiver exam: simply come with a computer to Kravis 870 on Fr
 
 To succeed in the waiver exam, you need a basic level in Bash, C and SQL, and an intermediate level in Python (imperative programming and control flow, basic data structures, recursive programming, object-oriented programming, debugging).
 
-To get a sense of the difficulty of the exam, please refer to the assignments and exams from the 2024 edition of this course [here](https://github.com/mm3509/b9122-2024).
+To get a sense of the scope, format and difficulty of the exam, please refer to the assignments and exams from the 2024 edition of this course [here](https://github.com/mm3509/b9122-2024).
 
 ## Grading
 
