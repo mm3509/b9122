@@ -12,22 +12,25 @@ Please contact me if you have any questions about this document, my policies, or
 
 # Basic information
 
-Miguel Morin (he/him/his)
+**Professor's name**: Miguel Morin (he/him/his)
 
-Classroom Location & Times:
+**Classroom Location & Times**:
 
-Section 1: 9:00 am - 12:15 pm, Geffen Hall 620
-Section 2: 2:20 pm -  5:35 pm, Geffen Hall 590
+- Section 1 (morning): 9:00 am - 12:15 pm, Geffen Hall 620
 
-Office Location: Kravis 570 (by appointment)
+- Section 2 (afternoon): 2:20 pm -  5:35 pm, Geffen Hall 590
 
-Office hours: Mondays, 4-6pm, Geffen 485, first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
+**Office Location**: Kravis 570 (by appointment)
 
-E-mail: please use Canvas Discussions, or see my email on Canvas.
+**Office hours**: Mondays, 4-6pm, Geffen 485, first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
 
-For TA information, please see Courseworks (because this repository is public).
+**E-mail**: please use Canvas Discussions, or see my email on Canvas.
 
-I distribute course material on this Github repository (for material that is plain-text) or on Canvas (for PDFs of lecture slides, announcements, handouts, and exams). You can ask questions after class or on Canvas "Discussions"; if you don't feel comfortable that your colleagues see your question, you can email me (but I respond much faster on Canvas than by email). You should make sure that you receive announcements and messaging notifications.
+**TA information**: please see Courseworks (because this repository is public).
+
+I distribute course material on this Github repository (for material that is plain-text) or on Canvas (for PDFs of lecture slides, announcements, handouts, and exams).
+
+You can ask questions after class or on Canvas "Discussions"; if you don't feel comfortable that your colleagues see your question, you can email me (but I respond much faster on Canvas than by email). You should make sure that you receive announcements and messaging notifications.
 
 We welcome students from all divisions and departments, contingent on availability. Business school students will have priority when registering.
 
@@ -169,13 +172,15 @@ The course, policies, and grading run like code: this syllabus is the software a
 
 - We enter a "blackout period" 24 hours before the deadline of an assignment or exam, when the TAs and I no longer answer questions.
 
-## Course waiver
+## Course waiver / exemption exam
 
 You can waive the class if you complete a waiver exam and get a grade above percentile 90 of last year's final exam grade. The grading standards that apply to this assignment are those of the final exam; in particular, you will not be able to use ANY AI tools (chatbot, AI code completion, AI answers in an online search). I will explain this in detail at the start of the exam.
 
-Anyone can take the waiver exam. You can simply come with a computer to Kravis 870 on Friday, August 29th from 2 PM – 5 PM EDT, and take the exam.
+Anyone can take the waiver exam: simply come with a computer to Kravis 870 on Friday, August 29th from 2 PM – 5 PM EDT.
 
 To succeed in the waiver exam, you need a basic level in Bash, C and SQL, and an intermediate level in Python (imperative programming and control flow, basic data structures, recursive programming, object-oriented programming, debugging).
+
+To get a sense of the difficulty of the exam, please refer to the assignments and exams from the 2024 edition of this course [here](https://github.com/mm3509/b9122-2024).
 
 ## Grading
 
