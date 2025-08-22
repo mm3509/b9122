@@ -1,0 +1,7 @@
+.DS_Store
+venv
+my_file.py
+.ipynb_checkpoints/*
+**/.ipynb_checkpoints/*
+__pycache__/*
+**/api_key.txt
