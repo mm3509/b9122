@@ -28,6 +28,14 @@ Please contact me if you have any questions about this document, my policies, or
 
 **TA information**: please see Courseworks (because this repository is public).
 
+**TA Office Hours**:
+
+- David C: Thursdays 11am-12pm
+
+- Hanmu Z: TBA
+
+- Lianchen Z: TBA
+
 I distribute course material on this Github repository (for material that is plain-text) or on Canvas (for PDFs of lecture slides, announcements, handouts, and exams).
 
 You can ask questions after class or on Canvas "Discussions"; if you don't feel comfortable that your colleagues see your question, you can email me (but I respond much faster on Canvas than by email). You should make sure that you receive announcements and messaging notifications.
