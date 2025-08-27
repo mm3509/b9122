@@ -188,11 +188,11 @@ Anyone can take the waiver exam: simply come with a computer to Kravis 870 on Fr
 
 The waiver exam will run like the final exam. In particular:
 
-- you will need to install Proctorio and submit answers on Gradescope with an account linked to Canvas, as detailed in the [in-person exam policies](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-exam.md);
+- you will need to install Proctorio and submit answers on Gradescope with an account linked to Canvas, (read more at [appendix-policies.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-exam.md);
 
 - if you use Windows, you need to install a Unix shell (I recommend `git bash`);
 
-- the policies are those of the final exam, e.g. all generative AI (chatbot, AI code completion, AI answers in an online search) is forbidden (read about it at [appendix-policies.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-policies.md#generative-ai-is-forbidden));
+- the policies are those of the final exam, e.g. all generative AI (chatbot, AI code completion, AI answers in an online search) is forbidden (read about it at [appendix-policies.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-policies.md#generative-ai-is-forbidden)) and academic integrity is very strict (read about it at [appendix-academic-integrity.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-academic-integrity.md)).
 
 - the grading standards are those of the final exam and you can read the detailed rubric at [appendix-grading.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-grading.md#assessment-grading-rubric-and-autograder).
 
