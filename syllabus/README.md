@@ -32,9 +32,9 @@ Please contact me if you have any questions about this document, my policies, or
 
 - David C: Thursdays 11am-12pm
 
-- Hanmu Z: TBA
+- Hanmu Z: Fridays 12.30-2.30pm
 
-- Lianchen Z: TBA
+- Lianchen Z: Thursdays 12.50-2.20pm
 
 I distribute course material on this Github repository (for material that is plain-text) or on Canvas (for PDFs of lecture slides, announcements, handouts, and exams).
 
@@ -119,8 +119,8 @@ If you never wrote a computer program, or you haven't yet studied the linear reg
 | **Requirements by track**                                                               | **Basic** | **Advanced** |
 |------------------------------------------------------------------------------------------|-----------|--------------|
 | a laptop computer to run code in class                                                  | ✔         | ✔            |
-| Python 3 + PIP (installed on your machine or on Replit.com)                            | ✔         | ✔            |
-| Jupyter (installed on your machine or through Google Colab)                             | ✔         | ✔            |
+| Python 3 + PIP (installed on your machine or online)                            | ✔         | ✔            |
+| Jupyter (installed on your machine or online)                             | ✔         | ✔            |
 | for Windows computers, "git bash" (free) installed                                     | ✔         | ✔            |
 | Emacs (a free and "hackable" text editor)                                              | ✔         | ✔            |
 | a free account on www.github.com to pull my code                                        | ✔         | ✔            |

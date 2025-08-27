@@ -147,29 +147,31 @@ The grade for each assignment and exam is the weighted sum: the sum of points we
 
 Automated grading can be overridden manually. For example, your code passes the doc-tests because you tested specifically for those arguments. We will remove all points in the relevant rubrics. Your grade decreases.
 
-I expect your code to run "out-of-the-box", i.e. you submit it on Gradescope and it runs without intervention from the TAs or me. If you have trouble with this, please come to office hours. If your submission to an assignment or exam fails to run out-of-the-box, we will not grade it.
+I expect your code to run "out-of-the-box"
 
 Please check our GitHub page, at `1 admin/grading standards` for examples and guidance on each grading criterion, and the pages at `1 admin/guides` for a guide to GitHub and Gradescope.
 
 ### Automated grading: 65%
 
-- Doc-tests and test-driven development (10%): for full credit, the code has the required number of doc-tests and passes all of them; otherwise, partial credit is proportional to the number of doc-tests it passes.
+- **Delivery** (0%): your code should run "out-of-the-box", , i.e. you submit it on Gradescope and it runs without intervention from the TAs or me. If you have trouble with this, please come to office hours. If your submission to an assignment or exam fails to run out-of-the-box, we will activate the previous submission with the highest automatic grade. If there is no such submission, your code assessment will earn a zero overall grade.
 
-- Defensive programming (10%): for full credit, the code raises errors on all edge and corner cases (beyond test and corner cases supplied, and if required in the assignment). Note that this criterion will only run after the assignment is due: you will have to think for yourself which edge cases could be present, and anticipate for them ahead of receiving your grade.
+- **Doc-tests and test-driven development** (10%): for full credit, the code has the required number of doc-tests and passes all of them; otherwise, partial credit is proportional to the number of doc-tests it passes.
 
-- Functionality (25%): for full credit, the code does what it is supposed to do and provides the right output for test input; otherwise, partial credit is proportional to the number of test cases it passes.
+- **Defensive programming** (10%): for full credit, the code raises errors on all edge and corner cases (beyond test and corner cases supplied, and if required in the assignment). Note that this criterion will only run after the assignment is due: you will have to think for yourself which edge cases could be present, and anticipate for them ahead of receiving your grade.
 
-- Efficiency (5%): for full credit, the code runs faster than the required time (equal to 2x the running time of my code); otherwise, partial credit is proportional to the interpolation between the required time and a timeout (equal to 5 times the running time of my code).
+- **Results** (25%): for full credit, the code does what it is supposed to do and provides the right output for test input; otherwise, partial credit is proportional to the number of test cases it passes.
 
-- Comments (5%): the share of comments, ignoring those providing attribution of code origin, is below the suggested maximum share.
+- **Speed** (5%): for full credit, the code runs faster than the required time (equal to 2x the running time of my code); otherwise, partial credit is proportional to the interpolation between the required time and a timeout (equal to 5 times the running time of my code).
 
-- Style (10%): for full credit, the code follows the style guidelines for the assignment, with any errors emphasized on Gradescope; otherwise, partial credit is proportional to 10 minus the number of style errors.
+- **Comments** (5%): the share of comments, ignoring those providing attribution of code origin, is below the suggested maximum share.
+
+- **Style** (10%): for full credit, the code follows the style guidelines for the assignment, with no errors flagged on Gradescope; otherwise, partial credit is proportional to 10 minus the number of style errors.
 
 ### Manual grading: 35%
 
-- Refactoring, conciseness, and DRY ("Don't Repeat Yourself") (15%): for full credit, the code is well-refactored and DRY ("Don't Repeat Yourself"), no functionality is repeated twice, all functions are under 20 lines (after doc-tests and defensive programming tests).
+- **Refactoring, conciseness, and DRY** ("Don't Repeat Yourself") (15%): for full credit, the code is well-refactored and DRY ("Don't Repeat Yourself"), no functionality is repeated twice, all functions are under 20 lines (after doc-tests and defensive programming tests).
 
-- Readability (other than rubric above on refactoring) (15%): for full credit, the code is easy to read and understand; variable, function and object names are appropriate and convey meaning; functions are clear in what they do; they follow the "happy path". The code is so clear in what it does that there are obviously no bugs.
+- **Readability** (other than rubric above on refactoring) (15%): for full credit, the code is easy to read and understand; variable, function and object names are appropriate and convey meaning; functions are clear in what they do; they follow the "happy path". The code is so clear in what it does that there are obviously no bugs.
 
-- Comments (5%): Comments are used wisely, to convey meaning to humans (e.g., to fix bugs, to add notes to yourself later). All comments follow the StackOverflow guidelines.
+- **Comments** (5%): Comments are used wisely, to convey meaning to humans (e.g., to fix bugs, to add notes to yourself later). For full credit, all comments follow the StackOverflow guidelines.
 
