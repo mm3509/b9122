@@ -192,9 +192,9 @@ The waiver exam will run like the final exam. In particular:
 
 - if you use Windows, you need to install a Unix shell (I recommend `git bash`);
 
-- the policies are those of the final exam, e.g. all generative AI (chatbot, AI code completion, AI answers in an online search) is forbidden (read about it [here](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-policies.md#generative-ai-is-forbidden));
+- the policies are those of the final exam, e.g. all generative AI (chatbot, AI code completion, AI answers in an online search) is forbidden (read about it at [appendix-policies.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-policies.md#generative-ai-is-forbidden));
 
-- the grading standards are those of the final exam and you can read the detailed rubric [here](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-grading.md#assessment-grading-rubric-and-autograder).
+- the grading standards are those of the final exam and you can read the detailed rubric at [appendix-grading.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-grading.md#assessment-grading-rubric-and-autograder).
 
 I will explain and walk through these points in the first 15 minutes of the exam.
 
