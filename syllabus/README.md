@@ -182,13 +182,21 @@ The course, policies, and grading run like code: this syllabus is the software a
 
 ## Course waiver / exemption exam
 
-You can waive the class if you complete a waiver exam and get a grade above percentile 90 of last year's final exam grade. The grading standards that apply to this assignment are those of the final exam; in particular, you will not be able to use ANY AI tools (chatbot, AI code completion, AI answers in an online search). I will explain this in detail at the start of the exam.
+You can waive the course if you complete a waiver exam and get a grade above percentile 90 of last year's final exam grade. You will need a basic level in Bash, C and SQL, and an intermediate level in Python (imperative programming and control flow, basic data structures, recursive programming, object-oriented programming, debugging).
 
-Anyone can take the waiver exam: simply come with a computer to Kravis 870 on Friday, August 29th from 2 PM – 5 PM EDT.
+Anyone can take the waiver exam: simply come with a computer to Kravis 870 on Friday, August 29th from 2 PM - 5 PM EDT.
 
-To succeed in the waiver exam, you need a basic level in Bash, C and SQL, and an intermediate level in Python (imperative programming and control flow, basic data structures, recursive programming, object-oriented programming, debugging).
+The waiver exam will run like the final exam. In particular:
 
-To get a sense of the scope, format and difficulty of the exam, please refer to the assignments and exams from the 2024 edition of this course [here](https://github.com/mm3509/b9122-2024).
+- you should install Proctorio and submit answers on Gradescope, as detailed in the [in-person exam policies](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-exam.md);
+
+- if you use Windows, you need to install a Unix shell (I recommend `git bash`);
+
+- the policies and grading standards are those of the final exam, e.g. all generative AI (chatbot, AI code completion, AI answers in an online search) is forbidden (read about it [here](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-policies.md#generative-ai-is-forbidden)); 
+
+I will explain and walk through these points in the first 15 minutes of the exam.
+
+To get a sense of the scope, format and difficulty of the exam, or if you want to experiment with Gradescope and Autograder, please refer to the assignments and exams from the 2024 edition of this course [here](https://github.com/mm3509/b9122-2024).
 
 ## Grading
 

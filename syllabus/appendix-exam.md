@@ -6,7 +6,9 @@ Violating the guidelines in this document is forbidden, violates the [CBS Honor 
 
 ## Before the exam
 
-- Install Proctorio and test it with the Test Exam on Canvas.
+- Click on "Gradescope" from the Canvas page (or [directly here](https://courseworks2.columbia.edu/courses/232050/external_tools/29680?display=borderless)) and create an account. You will submit your answers on Gradescope only, not on Canvas.
+
+- Install Proctorio and test it with the [Test Exam on Canvas](https://courseworks2.columbia.edu/courses/232050/external_tools/35291)
 
 - Read the new policies on academic integrity, generative AI, and the in-person exam.
 
@@ -16,7 +18,7 @@ Violating the guidelines in this document is forbidden, violates the [CBS Honor 
 
 - Give me your phone(s), your tablet(s), external screens and all electronic devices other the computer above at the beginning of class, which I will place in a transparent box. The reason is that Proctorio only monitors one screen, so any other screens you use cannot be monitored.
 
-- Check your place in the random seating arrangement, published two hours before the exam.
+- Check your place in the random seating arrangement, published two hours before the exam (not for waiver exam).
 
 ## During the exam
 
@@ -30,7 +32,7 @@ Violating the guidelines in this document is forbidden, violates the [CBS Honor 
 
 - 5 points if you use your phone, your tablet, or another electronic device during the assignment;
 
-- X points if you don't use Proctorio throughout the exam, where X is 0 if you use Proctorio for more than 2h55min, X is 140 if you use Proctorio for less than 1 hour, and linear in between;
+- X points if you don't use Proctorio throughout the exam, where X is 0 if you use Proctorio for the full 3 hours, X is 140 if you use Proctorio for less than 1 hour, and linear in between;
 
 - 140 points if you submit late.
 

@@ -1,5 +1,20 @@
 # Appendix: grading / method of evaluation
 
+| **Weight** | **Component**                                   |
+|------------|-------------------------------------------------|
+| 15%        | class attendance                                |
+| 5%         | online polls                                    |
+| 5%         | online quizzes                                  |
+| 5%         | end-of-lecture submissions                      |
+| 10%        | class participation                             |
+| 20%        | 5 assignments                                   |
+|            | (5% each, lowest grade dropped)                 |
+| 15%        | midterm exam                                    |
+| 25%        | final exam                                      |
+
+
+## Conversion to a letter grade
+
 To convert from a numeric grade to a letter grade, I will use a variation of k-means clustering. The code searches for thresholds of letter grades that minimize the variance within each cluster, while maintaining the spacing between letters (A+, A, A-, B+, B, B-, C, D, E, F) roughly constant. We may cover this code in the lecture on k-means, clustering and basic optimization.
 
 All items are graded out of 140 points. The rest of this document covers each item in detail.
@@ -125,15 +140,15 @@ def grade_class_participation(uni, participation_list):
 
 I release assignments after after a lecture; they are due on the Tuesday around 10 days later, so you have two weekends to complete them. I drop the lowest grade among the 5 assignments.
 
-The grading for assignments and exams is the same: see below for the Autograder.
+The grading for assignments and exams is the same: see below for the grading rubric.
 
 ## Exams
 
-Exams are in-person and last 3 hours. We will have a midterm and a final exam. See below for the Autograder.
+Exams are in-person and last 3 hours. We will have a midterm and a final exam. See below for the grading rubric.
 
 One week before the exam, I will send you a study guide so you can review the material and be prepared for the exam.
 
-## Autograder
+## Assessment grading rubric and Autograder
 
 This course uses an "Autograder" on Gradescope: you write code to complete the assignments, and I write code that gauges the quality of your code.
 
@@ -157,7 +172,7 @@ Please check our GitHub page, at `1 admin/grading standards` for examples and gu
 
 - **Doc-tests and test-driven development** (10%): for full credit, the code has the required number of doc-tests and passes all of them; otherwise, partial credit is proportional to the number of doc-tests it passes.
 
-- **Defensive programming** (10%): for full credit, the code raises errors on all edge and corner cases (beyond test and corner cases supplied, and if required in the assignment). Note that this criterion will only run after the assignment is due: you will have to think for yourself which edge cases could be present, and anticipate for them ahead of receiving your grade.
+- **Defensive programming** (10%): for full credit, the code raises errors on all edge and corner cases (beyond test and corner cases supplied, and if required in the assignment). Note that this criterion is hidden until the due date: you will have to think for yourself which edge cases could be present, and anticipate for them ahead of receiving your grade.
 
 - **Results** (25%): for full credit, the code does what it is supposed to do and provides the right output for test input; otherwise, partial credit is proportional to the number of test cases it passes.
 
