@@ -184,7 +184,7 @@ The course, policies, and grading run like code: this syllabus is the software a
 
 You can waive the course if you complete a waiver exam and get a grade above percentile 90 of last year's final exam grade. You will need a basic level in Bash, C and SQL, and an intermediate level in Python (imperative programming and control flow, basic data structures, recursive programming, object-oriented programming, debugging).
 
-Anyone can take the waiver exam: simply come with a computer to Kravis 870 on Friday, August 29th from 2 PM - 5 PM EDT.
+Anyone can take the waiver exam: simply come with a computer to Kravis 870 on Friday, August 29th from 2-5pm EDT. Please arrive around 1.30pm for a prompt start at 2pm.
 
 The waiver exam will run like the final exam. In particular:
 
