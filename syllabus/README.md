@@ -22,7 +22,7 @@ Please contact me if you have any questions about this document, my policies, or
 
 **Office Location**: Kravis 570 (by appointment)
 
-**Office hours**: Mondays, 4-6pm (location TBA), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
+**Office hours**: Mondays, 4-6pm in Kravis 920 (or Kravis 930 on 9/8, 10/6 and 12/8), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
 
 **E-mail**: please use Canvas Discussions, or see my email on Canvas.
 
