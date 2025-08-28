@@ -22,7 +22,7 @@ Please contact me if you have any questions about this document, my policies, or
 
 **Office Location**: Kravis 570 (by appointment)
 
-**Office hours**: Mondays, 4-6pm, Geffen 485, first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
+**Office hours**: Mondays, 4-6pm (location TBA), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
 
 **E-mail**: please use Canvas Discussions, or see my email on Canvas.
 
@@ -30,11 +30,11 @@ Please contact me if you have any questions about this document, my policies, or
 
 **TA Office Hours**:
 
-- David C: Thursdays 11am-12pm
+- David C: Thursdays 11am-12pm (location TBA)
 
-- Hanmu Z: Fridays 12.30-2.30pm
+- Hanmu Z: Fridays 12.30-2.30pm (location TBA)
 
-- Lianchen Z: Thursdays 12.50-2.20pm
+- Lianchen Z: Thursdays 12.50-1.50pm (location TBA)
 
 I distribute course material on this Github repository (for material that is plain-text) or on Canvas (for PDFs of lecture slides, announcements, handouts, and exams).
 
