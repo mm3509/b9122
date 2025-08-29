@@ -22,11 +22,19 @@ Please contact me if you have any questions about this document, my policies, or
 
 **Office Location**: Kravis 570 (by appointment)
 
-**Office hours**: Mondays, 4-6pm in Kravis 920 (or Kravis 930 on 9/8, 10/6 and 12/8), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
-
 **E-mail**: please use Canvas Discussions, or see my email on Canvas.
 
 **TA information**: please see Courseworks (because this repository is public).
+
+I distribute course material on this Github repository (for material that is plain-text) or on Canvas (for PDFs of lecture slides, announcements, handouts, and exams).
+
+You can ask questions after class or on Canvas "Discussions"; if you don't feel comfortable that your colleagues see your question, you can email me (but I respond much faster on Canvas than by email). You should make sure that you receive announcements and messaging notifications.
+
+We welcome students from all divisions and departments, contingent on availability. Business school students will have priority when registering.
+
+# Office hours
+
+**Miguel**: Mondays, 4-6pm in Kravis 920 (or Kravis 930 on 9/8, 10/6 and 12/8), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
 
 **TA Office Hours**:
 
@@ -35,12 +43,6 @@ Please contact me if you have any questions about this document, my policies, or
 - Hanmu Z: Fridays 12.30-2.30pm (location TBA)
 
 - Lianchen Z: Thursdays 12.50-1.50pm (location TBA)
-
-I distribute course material on this Github repository (for material that is plain-text) or on Canvas (for PDFs of lecture slides, announcements, handouts, and exams).
-
-You can ask questions after class or on Canvas "Discussions"; if you don't feel comfortable that your colleagues see your question, you can email me (but I respond much faster on Canvas than by email). You should make sure that you receive announcements and messaging notifications.
-
-We welcome students from all divisions and departments, contingent on availability. Business school students will have priority when registering.
 
 # Basic and advanced tracks
 
