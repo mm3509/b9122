@@ -5,3 +5,9 @@ my_file.py
 **/.ipynb_checkpoints/*
 __pycache__/*
 **/api_key.txt
+
+**/ai
+**/*.pdf
+**/main.c
+**/world-autograder.sql
+4-exams/waiver-exam/solution*

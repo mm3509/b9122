@@ -19,8 +19,8 @@ open-link () {
 }
 
 syllabus () {
-    open-link "https://github.com/mm3509/b9122/tree/main/syllabus"
     open-link "https://courseworks2.columbia.edu/courses/232050"
+    open-link "https://github.com/mm3509/b9122/tree/main/syllabus"
 }
 
 office-hours () {
