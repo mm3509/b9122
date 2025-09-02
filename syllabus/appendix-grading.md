@@ -21,14 +21,14 @@ All items are graded out of 140 points. The rest of this document covers each it
 
 ## Class attendance
 
-The grade for in-person attendance is proportional to in-person attendance, up to a maximum of 18 half-lectures. The first lecture, before the end of add-drop, does not require attendance. See before regarding the 4 freebie half-lectures. The function to grade class attendance is:
+The grade for in-person attendance is proportional to in-person attendance, up to a maximum of 20 half-lectures. The first lecture, before the end of add-drop, does not require attendance. See before regarding the 4 freebie half-lectures. The function to grade class attendance is:
 
 ``` python
 def normalize(grade):
     return 140 * min(1, grade)
 
 def grade_attendance(half_lectures):
-    return normalize(len(half_lectures) / 18)
+    return normalize(len(half_lectures) / 20)
 ```
 
 ## Online polls

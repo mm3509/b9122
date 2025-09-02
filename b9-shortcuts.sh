@@ -35,3 +35,7 @@ discussion () {
 discussions () {
     open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics"
 }
+
+gradescope () {
+    open-link "https://www.gradescope.com/courses/1104441"
+}
