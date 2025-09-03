@@ -123,7 +123,7 @@ If you never wrote a computer program, or you haven't yet studied the linear reg
 | a laptop computer to run code in class                                                  | ✔         | ✔            |
 | Python 3 + PIP (installed on your machine or online)                            | ✔         | ✔            |
 | Jupyter (installed on your machine or online)                             | ✔         | ✔            |
-| for Windows computers, "git bash" (free) installed                                     | ✔         | ✔            |
+| for Windows computers, "Anaconda Powershell prompt" (free) installed                                     | ✔         | ✔            |
 | Emacs (a free and "hackable" text editor)                                              | ✔         | ✔            |
 | a free account on www.github.com to pull my code                                        | ✔         | ✔            |
 | a free account on www.gradescope.com to use Autograder                                  | ✔         | ✔            |
@@ -192,7 +192,7 @@ The waiver exam will run like the final exam. In particular:
 
 - you will need to install Proctorio and submit answers on Gradescope with an account linked to Canvas, (see [appendix-exam.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-exam.md));
 
-- if you use Windows, you need to install a Unix shell (I recommend `git bash`);
+- if you use Windows, you need to install a Unix shell (I recommend `Anaconda PowerShell Prompt`);
 
 - the policies are those of the final exam, e.g. all generative AI (chatbot, AI code completion, AI answers in an online search) is forbidden (see [appendix-policies.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-policies.md#generative-ai-is-forbidden)) and academic integrity is very strict (see  [appendix-academic-integrity.md](https://github.com/mm3509/b9122/blob/main/syllabus/appendix-academic-integrity.md)).
 
