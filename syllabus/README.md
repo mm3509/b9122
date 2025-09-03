@@ -168,7 +168,7 @@ The course, policies, and grading run like code: this syllabus is the software a
 
 - In-class attendance is mandatory and counts towards your grade.
 
-- In the grading, attendance is capped at 9 lectures, assignments at 4, and online participation at 85%. These "freebies" are not permission to skip class; instead they are my "insurance policy" to avoid dealing with emails and corner cases.
+- In the grading, attendance is capped at 10 lectures, assignments at 4, and online participation at 83%. These "freebies" are not permission to skip class; instead they are my "insurance policy" to avoid dealing with emails and corner cases.
 
 - Excused absences follow school policy; all other absences are not excused (but can come from your freebies)
 
