@@ -36,7 +36,7 @@ def normalize(grade):
 During lecture, I regularly ask for feedback with online polls on PollEverywhere.com. You must register for an account and you **must use your Columbia email** (I discard all non-Columbia answers when computing the grade). The function to grade online polls is:
 
 ``` python
-MAX_ONLINE_GRADE = 85  # Capped at 85%.
+MAX_ONLINE_GRADE = 83  # Capped at 83%; 2 lectures are "freebies".
 
 def grade_online_polls(polleverywhere):
     return normalize(polleverywhere["participation"] / MAX_ONLINE_GRADE)
