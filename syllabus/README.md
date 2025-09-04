@@ -38,11 +38,11 @@ We welcome students from all divisions and departments, contingent on availabili
 
 **TA Office Hours**:
 
-- David C: Thursdays 11am-12pm (location TBA)
+- David C: Thursdays 11am-12pm (Kravis 9th floor student cubicle)
 
-- Hanmu Z: Fridays 12.30-2.30pm (location TBA)
+- Hanmu Z: Fridays 12.30-2.30pm (after mid-september, location TBA)
 
-- Lianchen Z: Thursdays 12.50-1.50pm (location TBA)
+- Lianchen Z: Thursdays 12.50-1.50pm (Kravis 930)
 
 # Basic and advanced tracks
 
