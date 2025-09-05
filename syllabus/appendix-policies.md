@@ -28,7 +28,7 @@ I will take attendance exactly 5 minutes after the start of class, e.g. when the
 
 I take attendance with a picture of the class; you will need to take your assigned seat and hold your nameplate clearly visible in front of you. If you do not have your nameplate, or you didn't take your assigned seat, your attendance will not count.
 
-If you forget your nameplate, or arrive late, your attendance will not count; but I allow for 2 "freebie" lectures to account for that (see below). The only exception is if you are missing your nameplate due to the School's fault (lost in transit, not printed on time, reprinted with another name).
+If you forget your nameplate, or arrive late, your attendance will not count; but I allow for 2 "freebie" lectures to account for that (see below). If you are missing your nameplate through no fault of your own (such as the School losing your nameplate in transit, misprinting your name and needing to reprint it), then I can record your attendance manually. Please email Student Affairs explaining the case, asking when you will have a namplete, and please copy me in the email.
 
 I want to start and end every class on time. You can hold me accountable to that.
 
