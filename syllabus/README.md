@@ -58,7 +58,7 @@ __Lectures__: Wednesdays 9am-12.15pm (section 1, advanced, Geffen 620); Wednesda
 
 __Waiver exam__: August 29th, 2-5pm, Kravis 870 (see below for details)
 
-__Midterm exam__: October 13th, 2-5pm.
+__Midterm exam__: October 15th, 2-5pm.
 
 __Final exam__: December 10th, 2-5pm.
 

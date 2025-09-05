@@ -26,9 +26,13 @@ I take attendance twice per lecture, in the first 5 minutes of each half-lecture
 
 I will take attendance exactly 5 minutes after the start of class, e.g. when the clock turns from 9:04 to 9:05 if the class starts at 9am. I will publish a seating assignment (which will change twice during the term, after lecture 5 and after lecture 9). You will need your nameplate and to take your assigned seat, otherwise my attendance software will not recognize your attendance. If you do both and do not receive confirmation of attendance, I may have a bug in the software, so please contact me for it.
 
-I take attendance with a picture of the class; you will need to take your assigned seat and hold your nameplate clearly visible in front of you. If you do not have your nameplate, or you didn't take your assigned seat, your attendance will not count.
+I take attendance with a picture of the class; you will need to take your assigned seat and hold your nameplate clearly visible in front of you.
 
-If you forget your nameplate, or arrive late, your attendance will not count; but I allow for 2 "freebie" lectures to account for that (see below). If you are missing your nameplate through no fault of your own (such as the School losing your nameplate in transit, misprinting your name and needing to reprint it), then I can record your attendance manually. Please email Student Affairs explaining the case, asking when you will have a namplete, and please copy me in the email.
+For the reasons mentioned in lecture 1 (especially for the computer vision software to recognize students' names), I require official CBS nameplates, not handwritten ones.
+
+If you are missing your nameplate through no fault of your own (such as the School losing your nameplate in transit, misprinting your name and needing to reprint it), then I will allow that exception. Please email Student Affairs explaining the case, asking when you will have a namplete, and please copy me in the email.
+
+If not, I also account for situations like these, which is why I give 2 lectures as "freebies" (see below). The 2 freebie lectures are not permission to skip class, but specifically for these situations.
 
 I want to start and end every class on time. You can hold me accountable to that.
 
