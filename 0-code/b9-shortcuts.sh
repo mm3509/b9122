@@ -29,7 +29,7 @@ office-hours () {
 }
 
 discussion () {
-    open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics/1465507"
+    open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics/1473640"
 }
 
 discussions () {
@@ -42,4 +42,9 @@ gradescope () {
 
 pollev () {
     open-link "https://courseworks2.columbia.edu/courses/232050/external_tools/22456"
+    open-link "https://pollev.com/b9122"
+}
+
+courseworks () {
+    canvas
 }
