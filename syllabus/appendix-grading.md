@@ -59,7 +59,7 @@ def grade_online_quizzes(polleverywhere):
 
 ## End-of-lecture submissions
 
-Most lectures are hands-on and require you to run code along with me. You must submit your Python code in a text file or Jupyter notebook, or your shell logs or other screenshots, on the Gradescope assignment called "end-of-lecture submissions". The Autograder will give your submission a grade at the end of lecture day; but I reserve the right to inspect the submission and revert the grade (for example, in case two students cheat and submit the same document).
+Most lectures are hands-on and require you to run code along with me. You must submit your Python code in a text file or Jupyter notebook, or your shell logs or other screenshots, on Canvas.
 
 The function to grade your end-of-lecture submissions is:
 
@@ -154,6 +154,8 @@ This course uses an "Autograder" on Gradescope: you write code to complete the a
 
 For assignments, you have three submissions per day and Autograder will give you an indication of your grade, so you can improve and get maximum points. The earlier you start on the assignments, the more submissions and opportunities for improvement you'll have.
 
+In spite of having 3 submissions per day, you can activate a previous submission until the deadline (due date). For example, your second submission on the last day was good, but you introduced a bug in your third submission that decreased your grade, but you don't have submissions left to submit again. You can go to the history of submissions and activate the previous submission.
+
 Any question marked as "bonus" increases your grade to the maximum of 140 in the particular assessment and do not carry over to other assessments. That is, bonus questions serve as insurance within an assessment (in case you lost points on another question) but not across assessments (in case you lost points on another assignment).
 
 This section details the grading standards that will apply by the end of the term: we will build towards these standards gradually. For example, in the first assignment, your code can have up to 50% of lines that are a comment, but by the end of term, your comments must be under 20% for full credit.
@@ -164,7 +166,7 @@ Automated grading can be overridden manually. For example, your code passes the 
 
 I expect your code to run "out-of-the-box"
 
-Please check our GitHub page, at `1 admin/grading standards` for examples and guidance on each grading criterion, and the pages at `1 admin/guides` for a guide to GitHub and Gradescope.
+Please check our GitHub page, at `1-admin/grading-standards` for examples and guidance on each grading criterion, and the pages at `1-admin/guides` for a guide to GitHub and Gradescope.
 
 ### Automated grading: 65%
 
