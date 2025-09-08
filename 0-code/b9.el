@@ -1,3 +1,12 @@
+;; To set cursor to a thin bar instead of a rectangle, uncomment this.
+;;(setq-default cursor-type 'bar)
+
+;; Indentation of Python
+(setq python-indent-offset 4)
+
+;; Set the buffer-local variable `tab-width` at each new Python file
+(add-hook 'python-mode-hook (lambda () (setq tab-width 4)))
+
 (defun b9-args ()
   (interactive)
   (insert (combine-and-quote-strings '(
