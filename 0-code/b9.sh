@@ -48,3 +48,21 @@ pollev () {
 courseworks () {
     canvas
 }
+
+style () {
+    which flake8;
+    if [ $? -ne 0 ]; then
+        pip install flake8
+    fi
+
+    which flake8;
+    if [ $? -ne 0 ]; then
+        echo "Flake8 failed to install, please ask Miguel or a TA for help";
+    else
+        flake8 $1 --ignore=W504,E128,E127,E303,E251,W291,W391,E302,E305,E241,E261,E261,F841,E124,W292,W293,W503,W504
+    fi
+}
+
+comments () {
+    open-link "https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/"
+}
