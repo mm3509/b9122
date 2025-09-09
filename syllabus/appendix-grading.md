@@ -191,4 +191,3 @@ Please check our GitHub page, at `1-admin/grading-standards` for examples and gu
 - **Readability** (other than rubric above on refactoring) (15%): for full credit, the code is easy to read and understand; variable, function and object names are appropriate and convey meaning; functions are clear in what they do; they follow the "happy path". The code is so clear in what it does that there are obviously no bugs.
 
 - **Comments** (5%): Comments are used wisely, to convey meaning to humans (e.g., to fix bugs, to add notes to yourself later). For full credit, all comments follow the StackOverflow guidelines.
-
