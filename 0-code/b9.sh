@@ -90,4 +90,12 @@ b9-doctests () {
     python -m doctest -o=ELLIPSIS $1
 }
 
+b9-github () {
+    open-link "https://github.com/mm3509/b9122"
+}
+
+b9-canvas () {
+    open-link "https://courseworks2.columbia.edu/courses/232050"
+}
+
 echo "You have loaded Miguel's code for B9122"
