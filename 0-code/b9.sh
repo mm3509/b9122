@@ -6,6 +6,11 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     OS="MACOS"
 fi
 
+which python
+if [ $? -ne 0 ]; then
+    alias python=python3
+fi
+
 
 b9-open-link () {
     echo "Opening link: $1";
