@@ -7,7 +7,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 
-open-link () {
+b9-open-link () {
     echo "Opening link: $1";
     if [[ "MACOS" == "$OS" ]]; then
         if [[ -d "$HOME/code/b9122" ]]; then
@@ -15,41 +15,43 @@ open-link () {
         else
             open $1
         fi
+    else
+        start $1
     fi
 }
 
-syllabus () {
-    open-link "https://courseworks2.columbia.edu/courses/232050"
-    open-link "https://github.com/mm3509/b9122/tree/main/syllabus"
+b9-syllabus () {
+    b9-open-link "https://courseworks2.columbia.edu/courses/232050"
+    b9-open-link "https://github.com/mm3509/b9122/tree/main/syllabus"
 }
 
-office-hours () {
-    open-link "https://courseworks2.columbia.edu/courses/232050"
-    open-link "https://github.com/mm3509/b9122/tree/main/syllabus#office-hours"
+b9-office-hours () {
+    b9-open-link "https://courseworks2.columbia.edu/courses/232050"
+    b9-open-link "https://github.com/mm3509/b9122/tree/main/syllabus#office-hours"
 }
 
-discussion () {
-    open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics/1473640"
+b9-discussion () {
+    b9-open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics/1473640"
 }
 
-discussions () {
-    open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics"
+b9-discussions () {
+    b9-open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics"
 }
 
-gradescope () {
-    open-link "https://www.gradescope.com/courses/1104441"
+b9-gradescope () {
+    b9-open-link "https://www.gradescope.com/courses/1104441"
 }
 
-pollev () {
-    open-link "https://courseworks2.columbia.edu/courses/232050/external_tools/22456"
-    open-link "https://pollev.com/b9122"
+b9-pollev () {
+    b9-open-link "https://courseworks2.columbia.edu/courses/232050/external_tools/22456"
+    b9-open-link "https://pollev.com/b9122"
 }
 
-courseworks () {
+b9-courseworks () {
     canvas
 }
 
-style () {
+b9-style () {
     which flake8;
     if [ $? -ne 0 ]; then
         pip install flake8
@@ -63,6 +65,29 @@ style () {
     fi
 }
 
-comments () {
-    open-link "https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/"
+b9-guide-comments () {
+    b9-open-link "https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/"
 }
+
+b9-guide-speed () {
+    b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/speed.md"
+}
+
+b9-guide-style () {
+    b9-open-link "https://google.github.io/styleguide/pyguide.html"
+    b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/style.md"
+}
+
+b9-guide-dry () {
+    b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/dry.md"
+}
+
+b9-doctests-verbose () {
+    python -m doctest -v -o=ELLIPSIS $1
+}
+
+b9-doctests () {
+    python -m doctest -o=ELLIPSIS $1
+}
+
+echo "You have loaded Miguel's code for B9122"
