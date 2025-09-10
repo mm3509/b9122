@@ -6,7 +6,7 @@ If Autograder flags your code for slowness, please read this document: it provid
 
 As seen in lecture 2, some methods are faster than others, and I list them here:
 
-- instead of `.insert(0, ...)`, use `.append()`
+- instead of `.insert(0, ...)`, change your logic to use `.append()`
 
 ## Avoid loops
 
