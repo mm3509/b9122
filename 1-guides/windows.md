@@ -35,7 +35,7 @@ To see if Anaconda Python is in the default location, run this command in **git 
 
 If the command succeeds, your Anaconda location is the default. The location `/c/Anaconda3/etc/profile.d/conda.sh` is the path for the Conda initialization. Remember this path and continue to Step 3.
 
-### Step 2.2: find non-default Conda initialization file.
+### Step 2.2: find non-default Conda initialization file
 
 If the command fails, you need to find the location for Anaconda.
 
@@ -43,7 +43,7 @@ If the command fails, you need to find the location for Anaconda.
 
 <img src="https://play-lh.googleusercontent.com/jD8waDJPN1yv4OdcB6_ILw9M4kyNPdtgBYtoTiPrYhxA1l4FLSKXXe4kAcDCjmtZmQ4=w240-h480" />
 
-2. Run an **ANACONDA COMMAND PROMPT SHELL** (it's different from a Git Bash shell!). To do so, in the Windows search box, search for "Anaconda prompt", look for it, and press Enter to run it.
+2. Run an **ANACONDA COMMAND PROMPT SHELL** (it's different from a Git Bash shell---I know, it's confusing). To do so, in the Windows search box, search for "Anaconda prompt", look for it, and press Enter to run it.
 
 3. Type this command (and notice it's **conda**, not **anaconda**):
 
@@ -53,7 +53,7 @@ where conda
 
 You should see a list of paths that start with `C:\Users\...`. The first line ends with `conda.bat`.
 
-4. Take the first line and copy it into Notepad. Remove the text starting from `\Library`, change the initial `C:\` to `/c/`, and change all backslashes to forward slashes, from `\` to `/`. You should then see something like this in Notepad:
+4. Take the first line and copy it into Notepad. Remove the text starting from `\Library`, change the initial `C:\` to `/c/`, and change all backslashes to forward slashes (from `\` to `/`). You should then see something like this in Notepad:
 
 ```
 /c/Users/your-username/anaconda3
@@ -87,7 +87,7 @@ For these changes to take effect, close git bash and start it again. Check if py
 python3 --version
 ```
 
-If so, your setup is complete. Every new Git Bash session will have conda available and automatically activate the base environment of Anaconda.
+If you see something like `Python 3.12.4`, your setup is complete. Every new Git Bash session will have conda available and automatically activate the base environment of Anaconda. You can exit this guide.
 
 ## Errors
 
