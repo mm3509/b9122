@@ -111,7 +111,7 @@ b9-canvas () {
 b9-update () {
     cd ~/b9122;
     git pull;
-    source ~/b9122/b9.sh
+    source ~/b9122/0-code/b9.sh
     echo "You have successfully updated the course repository on your computer."
 }
 
