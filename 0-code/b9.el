@@ -64,7 +64,7 @@
   (interactive)
   (insert "with open(")
   (save-excursion
-    (insert "\"), encoding='utf-8') as f:
+    (insert ") as f:
     contents = f.read()
 lines = re.split('\\r|\\n', contents)
 ")))
@@ -120,7 +120,8 @@ DATA_FILEPATH = os.path.join(THIS_DIR, \"data.csv\")"))
   (interactive)
   (insert "    Traceback (most recent call last):
     ...
-    ValueError: argument must be ...
+    TypeError: ...
+    ValueError: ...
 "))
 
 (defun b9-insert-doctests ()

@@ -6,7 +6,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     OS="MACOS"
 fi
 
-which python
+which python > /dev/null
 if [ $? -ne 0 ]; then
     alias python=python3
 fi
@@ -24,6 +24,11 @@ b9-open-link () {
         start $1
     fi
 }
+
+which open-link > /dev/null
+if [ $? -ne 0 ]; then
+    alias open-link=b9-open-link
+fi
 
 b9-syllabus () {
     b9-open-link "https://courseworks2.columbia.edu/courses/232050"
@@ -57,12 +62,12 @@ b9-courseworks () {
 }
 
 b9-style () {
-    which flake8;
+    which flake8 > /dev/null
     if [ $? -ne 0 ]; then
         pip install flake8
     fi
 
-    which flake8;
+    which flake8 > /dev/null
     if [ $? -ne 0 ]; then
         echo "Flake8 failed to install, please ask Miguel or a TA for help";
     else
@@ -96,11 +101,18 @@ b9-doctests () {
 }
 
 b9-github () {
-    open-link "https://github.com/mm3509/b9122"
+    b9-open-link "https://github.com/mm3509/b9122"
 }
 
 b9-canvas () {
-    open-link "https://courseworks2.columbia.edu/courses/232050"
+    b9-open-link "https://courseworks2.columbia.edu/courses/232050"
+}
+
+b9-update () {
+    cd ~/b9122;
+    git pull;
+    source ~/b9122/b9.sh
+    echo "You have successfully updated the course repository on your computer."
 }
 
 echo "You have loaded Miguel's code for B9122"
