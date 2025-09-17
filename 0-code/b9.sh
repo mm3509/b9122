@@ -64,15 +64,10 @@ b9-courseworks () {
 b9-style () {
     which flake8 > /dev/null
     if [ $? -ne 0 ]; then
-        pip install flake8
+        python -m pip install flake8
     fi
 
-    which flake8 > /dev/null
-    if [ $? -ne 0 ]; then
-        echo "Flake8 failed to install, please ask Miguel or a TA for help";
-    else
-        flake8 $1 --ignore=W504,E128,E127,E303,E251,W291,W391,E302,E305,E241,E261,E261,F841,E124,W292,W293,W503,W504
-    fi
+    python -m flake8 $1 --ignore=W504,E128,E127,E303,E251,W291,W391,E302,E305,E241,E261,E261,F841,E124,W292,W293,W503,W504
 }
 
 b9-guide-comments () {
