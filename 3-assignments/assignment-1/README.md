@@ -56,7 +56,7 @@ Some homebanking sites do not let you copy-paste an IBAN when making a transfer 
 
 The first function cleans the IBAN, ignoring spaces, periods, and letter case (including at the beginning and the ending, because of copy-pasting). It throws an error if it is invalid. An IBAN is valid if and only if:
 - it starts with two ASCII letters (don't verify if the country exists)
-- it has any number of digits, letters, spaces and periods
+- it has any positive number of digits and ASCII letters (and it can have spaces and periods too)
 - it ends with 2 digits
 
 Add defensive programming and code to the first function. Use the string method `.replace()`, i.e. `a.replace(b, c)` replaces all occurrences of `b` with `c` in string `a` and returns a new string.
