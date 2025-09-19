@@ -12,7 +12,9 @@ print(string.digits)
 
 In defensive programming, for technical reasons, you should raise a `ValueError` (and not a TypeError, unlike what I mentioned in lecture 2).
 
-## 1: converting currencies (20 points for MSFE, 35 points for MSAFA)
+Some exercises are optional for MSAFA and MSM students: you can answer these exercises to get points up to a maximum of 140, but you cannot "save and transfer" these points to assignment 2.
+
+## 1: converting currencies (20 points for MSFE, 35 points for MSAFA + MSM)
 
 This exercise uses code already written to convert a currency. The [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) standard defines a currency with three ASCII letters. You can assume that, if the user passes three ASCII letters, that is a valid currency code; if not, you can let the call to Yahoo throw an error.
 
@@ -20,27 +22,27 @@ The exercise is missing corner cases. Add defensive programming for
 all cases you can think of. (Autograder will only give your score on
 defensive programming and corner cases after the deadline.)
 
-## 2: annualize a return (20 points for MSFE, 35 points for MSAFA)
+## 2: annualize a return (20 points for MSFE, 35 points for MSAFA + MSM)
 
 We will sometimes need to convert a return (like an interest rate or a stock return) from a time period to another. This exercise converts a daily return to a yearly return, assuming that a year has 250 days (the approximate number of trading days in a year).
 
 Add code to the function to pass the doc-tests. Add defensive programming. Use the operator `**` for exponentiation.
 
-## 3: diarize a return (20 points for MSFE, 35 points for MSAFA)
+## 3: diarize a return (20 points for MSFE, 35 points for MSAFA + MSM)
 
 This exercise is the reverse of the previous: it converts an interest rate from annual to daily.
 
 Using the functions `math.log()` and `math.exp()` (or, alternatively, use the NumPy versions: `np.log()` and `np.exp()`), add code to pass the doc-test. Also add defensive programming.
 
-## 4: remove duplicate and contiguous lines from a file (20 points for MSFE, 35 points for MSAFA)
+## 4: remove duplicate and contiguous lines from a file (20 points for MSFE, 35 points for MSAFA + MSM)
 
 Sometimes, your code writes a result into a file. If you run it twice, it will write the result twice to the file. This exercise removes those duplicate lines if they are immediately next to each other.
 
-The first function in this exercise removes duplicate elements from a list. Add defensive programming. Add code to pass the doc-test.
+The first function in this exercise removes duplicate elements from a list of strings. Add defensive programming. Add code to pass the doc-test.
 
 The second function is for reference, for you, in case you later want to use the first function on a filepath. You needn't do anything.
 
-## 5: string to integer cents (20 points for MSFE, optional 5 points for MSAFA
+## 5: string to integer cents (20 points for MSFE, bonus question for MSAFA + MSM for 5 points)
 
 Floats have the problem of losing precision; for example `.1 * 3 == .3` returns `False` because of numerical errors in the representation of floating point numbers. That is why e-commerce companies like Stripe first convert any currency into an integer number of **cents**, do all the calculations in integers (such as sales tax), then convert back to dollars and cents to show the user.
 
@@ -50,7 +52,7 @@ Add defensive programming. You can use the string method `.count()`: `a.count(b)
 
 Add code to pass the doc-tests.
 
-## 6: check IBAN (20 points for MSFE, optional 5 points for MSAFA
+## 6: check IBAN (20 points for MSFE, bonus question for MSAFA + MSM for 5 points)
 
 Some homebanking sites do not let you copy-paste an IBAN when making a transfer (some say that it makes transfers harder for thieves, but I am not convinced). Instead, you have to write the IBAN by hand. Although IBANs have a built-in system for checking correctness (the last two digits confirm whether the IBAN is valid, and so prevent typos), I prefer to double-check that the IBAN in the confirmation page of the transfer (where I can copy-paste) is the same as in my files, which is why I wrote this function.
 
@@ -63,7 +65,7 @@ Add defensive programming and code to the first function. Use the string method 
 
 The second function returns True if the two IBANs are valid and are the same, after being cleaned by the above function. Add code to pass the doc-tests. You needn't add defensive programming to this second function, because the call to `clean_iban()` covers corner cases.
 
-## 7: debugging (20 points for MSFE, optional 5 points for MSAFA
+## 7: debugging (20 points for MSFE, bonus question for MSAFA + MSM for 5 points)
 
 This file calls the function in exercise 1 to print currency conversions from the shell. For example, we want to write:
 
