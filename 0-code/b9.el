@@ -171,4 +171,3 @@ if \"__main__\" == __name__:
 fn = os.path.basename(fp)
 stem, extension = os.path.splitext(fn)
 "))
-

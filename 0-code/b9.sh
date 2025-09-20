@@ -6,7 +6,25 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     OS="MACOS"
 fi
 
-which python > /dev/null
+# TODO: test this on Windows.
+if [[ "WINDOWS" == "$OS" ]]; then
+    open () {
+        start $@
+    }
+fi
+
+TARGET=$HOME/Desktop
+
+if [ ! -d $TARGET ]; then
+    TARGET=$HOME/DeskTop
+    if [ ! -d $TARGET]; then
+        echo "******** The default Desktop folder does not exist, please see Miguel or a TA"
+    fi
+fi
+    
+
+# TODO: on Windows, test this: command -v
+which python > /dev/null 2> /dev/null
 if [ $? -ne 0 ]; then
     alias python=python3
 fi
@@ -25,7 +43,7 @@ b9-open-link () {
     fi
 }
 
-which open-link > /dev/null
+which open-link > /dev/null 2> /dev/null
 if [ $? -ne 0 ]; then
     alias open-link=b9-open-link
 fi
@@ -38,10 +56,6 @@ b9-syllabus () {
 b9-office-hours () {
     b9-open-link "https://courseworks2.columbia.edu/courses/232050"
     b9-open-link "https://github.com/mm3509/b9122/tree/main/syllabus#office-hours"
-}
-
-b9-discussion () {
-    b9-open-link "https://courseworks2.columbia.edu/courses/232050/discussion_topics/1473640"
 }
 
 b9-discussions () {
@@ -62,7 +76,7 @@ b9-courseworks () {
 }
 
 b9-style () {
-    which flake8 > /dev/null
+    which flake8 > /dev/null 2> /dev/null
     if [ $? -ne 0 ]; then
         python -m pip install flake8
     fi
@@ -108,6 +122,14 @@ b9-update () {
     git pull;
     source ~/b9122/0-code/b9.sh
     echo "You have successfully updated the course repository on your computer."
+}
+
+b9-lecture () {
+    b9-update;
+    cp $HOME/b9122/2-lectures/lecture-04 $TARGET
+    echo "The code to prepare today's lecture ran successfully"
+    b9-quiz;
+    b9-pollev;
 }
 
 echo "You have loaded Miguel's code for B9122"
