@@ -130,7 +130,7 @@ Even if somehow you escape detection on the assignments, violating this policy w
 
 Don't try to outsmart me. If you cheat, the risks you are taking far exceed the benefits. Don't do it.
 
-If you have read this far, let me know by the end of lecture 2 and I'll owe you a beer or a cider.
+If you have read this far, let me know by the end of lecture 1 that you found this Easter Egg.
 
 ## Late assignments earn zero grade
 
