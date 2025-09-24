@@ -43,12 +43,12 @@ b9-open-link () {
     fi
 }
 
-which open-link > /dev/null 2> /dev/null
-if [ $? -ne 0 ]; then
-    open-link () {
-        b9-open-link $1
-    }
-fi
+# which open-link > /dev/null 2> /dev/null
+# if [ $? -ne 0 ]; then
+#     open-link () {
+#         b9-open-link $1
+#     }
+# fi
 
 b9-syllabus () {
     b9-open-link "https://courseworks2.columbia.edu/courses/232050"
