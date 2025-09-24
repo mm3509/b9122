@@ -45,7 +45,9 @@ b9-open-link () {
 
 which open-link > /dev/null 2> /dev/null
 if [ $? -ne 0 ]; then
-    alias open-link=b9-open-link
+    open-link () {
+        b9-open-link $1
+    }
 fi
 
 b9-syllabus () {
@@ -130,6 +132,22 @@ b9-lecture () {
     echo "The code to prepare today's lecture ran successfully"
     b9-quiz;
     b9-pollev;
+}
+
+b9-starfish () {
+    b9-open-link "https://cas.columbia.edu/cas/login?service=https%3A%2F%2Fgsbcolumbia.starfishsolutions.com%2Fstarfish-ops%2Fsession%2FcasLogin.html"
+}
+
+b9-tutoring () {
+    b9-starfish;
+}
+
+b9-guide-troubleshooting () {
+    b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/troubleshooting.md"
+}
+
+b9-bash () {
+    b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/bash.md"
 }
 
 echo "You have loaded Miguel's code for B9122"

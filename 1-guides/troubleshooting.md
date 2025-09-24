@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# Troubleshooting / Frequently Asked Questions
 
 These are common questions, roughly by the order we encounter them during the semester.
 
@@ -37,11 +37,25 @@ __git__: git is a "command-line only" program and does not have a graphical user
 
 ### 2.1 Why does this command not work as in the slides (e.g., some `b9-` command)?
 
-There could be several reasons:
+There could be several reasons.
 
-- __You copied the prompt ($ or %)__: I add the prompt, `$` or `%`, to distinguish what is an input to the shell and what is an output, or to emphasize that a command is for the shell and not for Python. Remove the prompt at the start of the line and run again.
+#### 2.1.1 not using a Bash shell
 
 - __You are in Python Interactive Mode__: if you see a `SyntaxError`, you are trying to run a shell as a Python command. The two are different. Exit the interactive mode by either (1) typing `exit()` and pressing ENTER, (2) hitting Control-D on macOS or Control-Z on Windows. Then run the command again.
+
+- __You are on Windows and are using a shell other than git bash__: Unfortunately, Windows has many shells, which are confusing. Check the top of the program to see the name of the shell. If it's not "git bash", or doesn't have this icon, you need to start git bash and run commands there:
+
+<img src="../.img/git-bash.png">
+
+#### 2.1.2 not at the right location
+
+- __You are not at the right location__: If you see an error `file not found`, you are not at the right location. Use `pwd` (print working directory) to check where you are in the computer. Use `ls` to list the files at the current location. Use `cd` (change directory) to navigate to the right location, then try again.
+
+#### 2.1.3 not the right bash syntax
+
+- __You are running a Python command__: Python commands don't work in Bash, for example `a_list = [1, 2, 3]` is valid in Python but not in the shell.
+
+- __You copied the prompt ($ or %)__: I add the prompt, `$` or `%`, to distinguish what is an input to the shell and what is an output, or to emphasize that a command is for the shell and not for Python. Remove the prompt at the start of the line and run again.
 
 - __You copied a file but not the program__: A command in Bash/shell always calls a program first (such as `git`, `cd`, `python`) and then arguments (such as a filename). You may have accidentally copied a filename without the program.
 
@@ -71,11 +85,7 @@ In this case, you get the error message: `fatal: Too many arguments.` The progra
 git clone https://github.com/mm3509/b9122
 ```
 
-- __You are on Windows and are using a shell other than git bash__: Unfortunately, Windows has many shells, which are confusing. Check the top of the program to see the name of the shell. If it's not "git bash", or doesn't have this icon, you need to start git bash and run commands there:
-
-<img src="../.img/git-bash.png">
-
-- __You are not at the right location__: If you see an error `file not found`, you are not at the right location. Use `cd` (change directory) and `pwd` (print working directory) to navigate to the right location, then try again.
+#### 2.1.4 not using my code
 
 - __You did not hook your shell to my code__: If you see an error `command not found` and it's not a problem of spaces, most likely you In the file `b9.sh` in our repository, I provide helpful commands and shortcuts that will be useful during the course. For example, instead of submitting on Gradescope to see if your code passes doc-tests and style, you can those checks "locally" (i.e., on your computer) and avoid "burning" one of your three submissions a day. See below how you can hook your shell to my code
 
@@ -98,7 +108,7 @@ cd; cd b9122
 
 ### 3.1 How can I edit the code?
 
-First, you navigate to the location of the file (using Finder on macOS and Windows Explorer on Windows). Then, double-click the file you want to edit. It should open in your default text editor. If not, go back to the file, right-click, click on "Open with" and choose your text editor. Before pressing ENTER, click a box that says something like "Always open with".
+First, you navigate to the location of the file (using Finder on macOS and Windows Explorer on Windows). Then, double-click the file you want to edit. It should open in your default text editor. If not, go back to the file, right-click, click on `Open with`, then on `Other`, and choose your text editor. Before pressing ENTER, click a box that says something like `Always open with`.
 
 Then, you can start writing code at the places marked with `# TODO`.
 
@@ -148,3 +158,21 @@ If you cannot find the solution, please follow the next step in the checklist.
 ### 4.3 I cannot solve the problem, could you help?
 
 Yes, of course! Please raise your hand and a TA or I will help you. If outside of class, please ask in Canvas Discussions or come to Office Hours.
+
+
+
+
+
+
+Here is a checklist for solving errors:
+
+TBA
+
+
+
+, you first need to download my code onto your computer. `git clone` is the command for tha
+## 5 Other questions
+
+### 5.1 How can I debug in PyCharm?
+
+Please watch [this video](https://www.youtube.com/watch?v=sRGpvbhOhQs).
