@@ -34,3 +34,7 @@ def get_yahoo_value(code):
     latest_value_as_float = float(latest_value_as_series.iloc[0])
 
     return latest_value_as_float
+
+
+def get_yahoo_price(code):
+    return get_yahoo_value(code)
