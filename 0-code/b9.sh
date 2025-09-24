@@ -146,7 +146,7 @@ b9-guide-troubleshooting () {
     b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/troubleshooting.md"
 }
 
-b9-bash () {
+b9-guide-bash () {
     b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/bash.md"
 }
 
