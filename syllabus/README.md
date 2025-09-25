@@ -34,7 +34,7 @@ We welcome students from all divisions and departments, contingent on availabili
 
 # Office hours
 
-**Miguel**: Mondays, 5-7pm in Kravis 920 (or Kravis 930 on 9/8, 10/6 and 12/8), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8)
+**Miguel**: Mondays, 12.15-2.15pm (location TBA), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8).
 
 **TA Office Hours**:
 

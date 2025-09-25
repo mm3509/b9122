@@ -1,8 +1,10 @@
 def compute_interest(principal, rate, periods):
     """
-    >>> compute_interest(100, 0.05, 1)
-    5.0
-    >>> int(compute_interest(100, 0.05, 10))
+    >>> a = compute_interest(100, 0.05, 1)
+    >>> int(a)
+    5
+    >>> b = compute_interest(100, 0.05, 10)
+    >>> int(b)
     62
     """
 

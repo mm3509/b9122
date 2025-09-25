@@ -150,4 +150,8 @@ b9-guide-bash () {
     b9-open-link "https://github.com/mm3509/b9122/blob/main/1-guides/bash.md"
 }
 
+b9-office-hours () {
+    b9-open-link "https://forms.gle/hvLRzEG9dxnJQogx8"
+}
+
 echo "You have loaded Miguel's code for B9122"

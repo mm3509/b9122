@@ -159,18 +159,18 @@ If you cannot find the solution, please follow the next step in the checklist.
 
 Yes, of course! Please raise your hand and a TA or I will help you. If outside of class, please ask in Canvas Discussions or come to Office Hours.
 
+Before asking for help, here is a checklist for solving errors:
 
+1. Read the error message carefully: item always read the output or error itself, which tells you where and what went wrong
 
+2. Check this troubleshooting guide: most of your issues are written and solved here
 
+3. Search engines / Stack Overflow: copy keywords from your error on a search engine, to see if someone already had the same error and solved it
 
+4. Debugging: a debugger steps through the code line by line and helps identify the error
 
-Here is a checklist for solving errors:
+5. Talk to a human: if nothing else works, ask a TA or me for help and share the exact error message and what you already tried. In class, you can also ask a classmate (but not in assignments, nor in exams).
 
-TBA
-
-
-
-, you first need to download my code onto your computer. `git clone` is the command for tha
 ## 5 Other questions
 
 ### 5.1 How can I debug in PyCharm?
