@@ -176,3 +176,22 @@ Before asking for help, here is a checklist for solving errors:
 ### 5.1 How can I debug in PyCharm?
 
 Please watch [this video](https://www.youtube.com/watch?v=sRGpvbhOhQs).
+### 5.2 Which text editor should I choose?
+
+If you plan to earn a living writing code, I suggest Emacs: although it has a fixed cost (overhead, steep learning curve) at first, it will pay dividends for many years and increase your productivity.
+
+If you don't plan to code after this class, then the TAs suggest:
+
+- Notepad++ on Windows: a very minimalist editor but pleasant enough to use and definitely gets the job done.
+
+- VSCode on macOS: It provides a straightforward setup for Jupyter Notebooks, `.py` scripts, and even C++ editing and execution, all within a single interface.
+
+Notes on other text editors:
+
+- Notepad or TextEdit: DON'T use this. You will have to write indentation by hand, e.g. adding 4 or 8 spaces to every line, instead of pressing the TAB key once or twice.
+
+- Jupyter: if it works for you and you want to copy-paste code from my template files to the Jupyter notebook, and then back, you can use Jupyter. The TAs strongly discourage this text editor because you may soon be spending more time working around Jupyter issues (like copy-pasting back-and-forth, or difficulty running doc-tests and style checks) than writing code.
+
+- Atom: used by experienced developers and extensible with JavaScript (another programming language), but the project was ended in 2022 and has no support nor security updates, but is free and on par with Sublime.
+
+- Sublime: the TAs say it is also great, it's not free but you have an unlimited trial period (as long as you don't use it in a commercial setting). 
