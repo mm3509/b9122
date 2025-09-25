@@ -40,7 +40,7 @@ We welcome students from all divisions and departments, contingent on availabili
 
 - David C: Thursdays 11am-12pm (Kravis 9th floor student cubicle)
 
-- Hanmu Z: Fridays 12.30-2.30pm (after mid-september, location TBA)
+- Hanmu Z: Thursdays, 2:20–3:20 pm, (Geffen, 2nd floor common space, in front of the alumni lounge)
 
 - Lianchen Z: Thursdays 12.50-1.50pm (Kravis 930)
 
