@@ -1,5 +1,11 @@
 # Assignment 1
 
+Exercises 1 and 7 require the `yfinance` package. To install it, run this in a shell (Terminal.app or git bash):
+
+``` bash
+python -m pip install yfinance
+```
+
 Several exercises use ASCII, the American Standard Code for Information Interchange. ASCII letters are uppercase or lowercase letters from A to Z. ASCII digits are 0-9. You can access them with:
 
 ``` python
