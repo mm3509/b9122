@@ -103,7 +103,7 @@ On Windows, run this command:
 echo 'source ~/b9122/0-code/b9.sh' >> ~/.bash_profile
 ```
 
-Then open a new shell. If you see the message `You have loaded Miguel's code for B9122`, you succeeded. If not, please come to office hours.
+Then open a new shell. If you see the message `bYou have loaded Miguel's code for B9122`, you succeeded. If not, please come to office hours.
 
 ### 2.2 What’s current working path / Where am I?
 
