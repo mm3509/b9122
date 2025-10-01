@@ -109,6 +109,9 @@ b9-doctests-verbose () {
 
 b9-doctests () {
     python -m doctest -o=ELLIPSIS $1
+    if [ $? -eq 0 ]; then
+        echo "Your doc-tests pass (or you don't have any)"
+    fi
 }
 
 b9-github () {
@@ -152,6 +155,15 @@ b9-guide-bash () {
 
 b9-office-hours () {
     b9-open-link "https://forms.gle/hvLRzEG9dxnJQogx8"
+}
+
+b9-solution () {
+    git --no-pager diff --no-index exercise_$1* solution_$1*
+}
+
+b9-mk () {
+    km=$(bc <<< "$1 * 1.609")
+    echo "$1 miles = $km km"
 }
 
 echo "You have loaded Miguel's code for B9122"
