@@ -4,4 +4,7 @@
 # ... and the values are integers ...
 # ... that sum to 100 shares in total     
 
-portfolio = 
+portfolio = {
+    "MSFT": 10,
+    # TODO: complete this to get to 100 shares.
+}
