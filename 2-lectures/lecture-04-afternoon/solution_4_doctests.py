@@ -49,12 +49,3 @@ def compute_interest(principal, rate, periods):
             raise ValueError("argument must be positive")
     
     return principal * (1 + rate) ** periods - principal
-
-
-if "__main__" == __name__:
-    tests_failed, tests_run = doctest.testmod(optionflags=doctest.ELLIPSIS)
-    if 0 < tests_run:
-        assert 0 == tests_failed, 'Some doc-tests failed, exiting...'
-        print('Your doc-tests pass, congratulations!')
-    else:
-        print('Unable to run doc-tests, please see Miguel!')
