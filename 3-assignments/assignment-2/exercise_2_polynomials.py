@@ -4,6 +4,8 @@ def evaluate_polynomial(x, A):
     >>> round(a)
     6
     >>> evaluate_polynomial(1, [])
+    0
+    >>> evaluate_polynomial('0', [1])
     Traceback (most recent call last):
     ...
     AssertionError
@@ -19,6 +21,8 @@ def evaluate_polynomial_fast(x, A):
     >>> round(evaluate_polynomial_fast(1, [1, 2, 3]))
     6
     >>> evaluate_polynomial_fast(1, [])
+    0
+    >>> evaluate_polynomial('0', [1])
     Traceback (most recent call last):
     ...
     AssertionError
