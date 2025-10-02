@@ -1,10 +1,6 @@
 import string
 
 
-LETTERS = string.ascii_uppercase + string.ascii_lowercase
-LETTERS_AND_DIGITS = LETTERS + string.digits
-
-
 def clean_iban(iban):
     """
     >>> clean_iban("US123456789")
@@ -41,8 +37,6 @@ def clean_iban(iban):
 
     assert isinstance(iban, str)
 
-    err_msg = "argument must be valid IBAN"
-
     # Students: I do computations here because then the whole file is
     # more readable. If you try to run all defensive programming
     # first, the code will not be DRY and harder to read.
@@ -51,13 +45,13 @@ def clean_iban(iban):
     assert 4 < len(clean_iban)
 
     for c in clean_iban[:2]:
-        assert c in LETTERS
+        assert c in string.ascii_letters
 
     for c in clean_iban[-2:]:
         assert c in string.digits
 
     for c in clean_iban[2:-2]:
-        assert c in LETTERS_AND_DIGITS
+        assert c in string.ascii_letters + string.digits
 
     return clean_iban
 
