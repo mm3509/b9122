@@ -12,4 +12,4 @@ __pycache__/*
 **/world-autograder.sql
 4-exams/waiver-exam/solution*
 3-assignments/**/solution*
-#2-lectures/**/solution*
+2-lectures/**/solution*
