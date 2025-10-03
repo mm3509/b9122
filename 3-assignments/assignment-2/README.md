@@ -10,7 +10,7 @@ For MSAFA: the last 3 questions cover recursion and are optional. They increase 
 
 To generate a list of strings as test inputs for your exercises on Autograder, I may need to duplicate a list of strings with some changes (for example, from a list of IBANs, I modify them slightly so the `is_same_iban()` from assignment 1 will fail).
 
-This exercise has a bug and never finishes, i.e. it has an infinite loop. Find the bug, fix it, and add a comment explaining the bug. (You don't need to add defensive programming.)
+This exercise has a bug and never finishes, i.e. it has an infinite loop. Find the bug, fix it, and add a comment explaining the bug. (You don't need to add defensive programming. For this question only, your maximum share of comments is 80%, i.e. if you change one line of code, you can add 4 lines of coments.)
 
 ## 2: Polynomials (20 points for MSFE, 50 points for MSAFA)
 
