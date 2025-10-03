@@ -46,7 +46,7 @@ First, experiment with the list method `.extend()`: if `a` and `b` are lists, `a
 
 Add defensive programming. In this question, the list argument can contain anything, like in Python.
 
-Implement the function.
+Implement the function to flatten a list, while maintaining the order in which the elements appear.
 
 ## 5: Excel column letters to number (30 points for MSFE, 5 optional points for MSAFA)
 
