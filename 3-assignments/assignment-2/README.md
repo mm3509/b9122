@@ -24,6 +24,8 @@ Implement strict defensive programming, assuming that anyone may call your funct
 
 Implement a first simple version of the function to pass the doc-tests. Then implement the second version, with suffix `_fast`, with [Horner's method](https://en.wikipedia.org/wiki/Horner%27s_algorithm) to pass speed (linear complexity instead of quadratic complexity).
 
+In either function, you may not use built-in fast functions like `sum()` or `np.sum()`.
+
 ## 3: Moving Average (20 points for MSFE, 50 points for MSAFA)
 
 The moving average of an array `A` with window size `k` is `None` for the first `k - 1` elements, and otherwise:
