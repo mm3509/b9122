@@ -36,7 +36,7 @@ moving_average[i] = (A[i - n + 1] + A[i - n + 2] + ... + A[i]) / n
 
 Implement strict defensive programming, assuming that anyone may call your function with arguments that are invalid for a mathematical calculation of the moving average (but without worrying about physical limits, like the maximum number for a float).
 
-Complete the first function to implement this moving average. Optimize the second function so it gives the same results as the first, but is faster and passes the speed test.
+Complete the first function to implement this moving average and return a list of the same size as the original list. Optimize the second function so it gives the same results as the first, but is faster and passes the speed test.
 
 In either function, you may not use built-in fast functions like `sum()` or `statistics.mean()`.
 
