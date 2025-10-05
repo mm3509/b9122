@@ -36,6 +36,8 @@ Implement strict defensive programming, assuming that anyone may call your funct
 
 Complete the first function to implement this moving average. Optimize the second function so it gives the same results as the first, but is faster and passes the speed test.
 
+In either function, you may not use built-in fast functions like `sum()` or `statistics.mean()`.
+
 ## 4: Recursion (20 points for MSFE, 5 optional points for MSAFA)
 
 This exercise is an example of a problem that can only be solved through recursion.
