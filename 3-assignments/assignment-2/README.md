@@ -28,10 +28,10 @@ In either function, you may not use built-in fast functions like `sum()` or `np.
 
 ## 3: Moving Average (20 points for MSFE, 50 points for MSAFA)
 
-The moving average of an array `A` with window size `k` is `None` for the first `k - 1` elements, and otherwise:
+The moving average of an array `A` with window size `n` is `None` for the first `n - 1` elements, and otherwise:
 
 ```
-moving_average[i] = (A[i - k + 1] + A[i - k + 2] + ... + A[i]) / n
+moving_average[i] = (A[i - n + 1] + A[i - n + 2] + ... + A[i]) / n
 ```
 
 Implement strict defensive programming, assuming that anyone may call your function with arguments that are invalid for a mathematical calculation of the moving average (but without worrying about physical limits, like the maximum number for a float).
