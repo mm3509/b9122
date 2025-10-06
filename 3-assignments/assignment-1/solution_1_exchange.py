@@ -45,7 +45,6 @@ def convert(amount, src, dst):
     for currency in [src, dst]:
         assert isinstance(currency, str)
 
-        error_msg = "currency must have three letters, as in ISO 4217"
         assert 3 == len(currency)
 
         for c in currency:

@@ -22,7 +22,7 @@ def diarize_return(interest_rate):
     # return np.exp(np.log(1 + interest_rate) / DAYS_IN_YEAR) - 1
 
     # Students: equivalent solution, without the math module
-    # return (1 interest_rate) ** (1 / DAYS_IN_YEAR) - 1
+    # return (1 + interest_rate) ** (1 / DAYS_IN_YEAR) - 1
 
     return math.exp(math.log(1 + interest_rate) / DAYS_IN_YEAR) - 1
 
