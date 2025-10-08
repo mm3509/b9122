@@ -104,11 +104,11 @@ b9-guide-dry () {
 }
 
 b9-doctests-verbose () {
-    python -m doctest -v -o=ELLIPSIS $1
+    python -m doctest -v -o=ELLIPSIS $@
 }
 
 b9-doctests () {
-    python -m doctest -o=ELLIPSIS $1
+    python -m doctest -o=ELLIPSIS $@
     if [ $? -eq 0 ]; then
         echo "Your doc-tests pass (or you don't have any)"
     fi
@@ -131,8 +131,8 @@ b9-update () {
 
 b9-lecture () {
     b9-update;
-    cp $HOME/b9122/2-lectures/lecture-04 $TARGET
-    echo "The code to prepare today's lecture ran successfully"
+    # cp $HOME/b9122/2-lectures/lecture-04 $TARGET
+    # echo "The code to prepare today's lecture ran successfully"
     b9-quiz;
     b9-pollev;
 }
@@ -164,6 +164,10 @@ b9-solution () {
 b9-mk () {
     km=$(bc <<< "$1 * 1.609")
     echo "$1 miles = $km km"
+}
+
+b9-midterm-feedback () {
+    open-link "https://courseworks2.columbia.edu/courses/232050/quizzes/266349"
 }
 
 echo "You have loaded Miguel's code for B9122"
