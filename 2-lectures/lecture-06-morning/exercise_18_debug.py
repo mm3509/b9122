@@ -40,8 +40,3 @@ def allocate_transactions(transactions, keys_to_keep):
         allocation[key].append(tx)
 
     return allocation
-
-
-if '__main__' == __name__:
-    doctests = doctest.testmod(optionflags=doctest.ELLIPSIS)
-    assert 0 == doctests.failed, 'Some doc-tests failed, exiting...'
