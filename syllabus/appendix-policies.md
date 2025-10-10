@@ -94,17 +94,17 @@ I want you to develop solid foundations in coding: "you learn to walk before you
 
 If, over the course of an investigation (see below) I conclude that you cannot reproduce the code you submitted (for example by using generative AI), you will immediately lose **twice the points** in the question.
 
-The following is a list of disallowed uses of generative AI:
+No piece of code that came from generative AI can be submitted in your code, regardless of the path that started from generative AI and ended in Gradescope. In particular, the following uses of AI are forbidden:
 
 - You cannot use generative AI to complete your assignment, get ideas on your code, or refactor your code;
 
 - You cannot use AI code completion in PyCharm, VS Code; if you decide to use these programs, you are responsible for deactivating AI code completion, but I strongly encourage you to instead use Emacs instead, along with my coding snippets, which will save you a lot of time;
 
-- You cannot use AI code completion on Replit.com;
+- You cannot use AI code completion on Replit.com or other websites;
 
-- You cannot use Google Search because of the "AI search labs overview"; instead, you must use the DuckDuckGo search engine.
+- You cannot use Google search and its feature of AI answers that cannot be disabled. You must use DuckDuckGo instead, and disable AI by clicking on `Search Asssist > Never`.
 
-- You cannot use generative AI to generate a "cheat sheet" for your exam.
+- You cannot use generative AI to generate a "cheat sheet" for your exam. If AI generates code, you add it to your cheat sheet, and then copy it to the midterm, it's still AI writing the answer and this will count as using generative AI.
 
 **You can use non-automatic code completion**, e.g. `M-/` in Emacs.
 
