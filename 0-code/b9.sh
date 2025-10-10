@@ -108,9 +108,20 @@ b9-doctests-verbose () {
 }
 
 b9-doctests () {
+    # Run this first: if there's a breakpoint, it will appear here.
     python -m doctest -o=ELLIPSIS $@
     if [ $? -eq 0 ]; then
-        echo "Your doc-tests pass (or you don't have any)"
+        # Run again, with verbose, to catch the case where 0 doc-tests were run.
+        doctest_output=$(b9-doctests-verbose $@)
+        if [[ "${doctest_output}" =~ "0 tests" ]]; then
+            echo "------------------------------------------------------"
+            echo "--                                                  --"
+            echo "-- One (or more) of your files is missing doc-tests --"
+            echo "--                                                  --"
+            echo "------------------------------------------------------"
+        else
+            echo "Your doc-tests pass, congratulations!"
+        fi
     fi
 }
 
@@ -167,7 +178,7 @@ b9-mk () {
 }
 
 b9-midterm-feedback () {
-    open-link "https://courseworks2.columbia.edu/courses/232050/quizzes/266349"
+    b9-open-link "https://courseworks2.columbia.edu/courses/232050/quizzes/266349"
 }
 
 echo "You have loaded Miguel's code for B9122"
