@@ -8,9 +8,18 @@ def fair_coin():
 
 def simulate(p):
 
+    # The current function always returns True, which is 100% chance
+    # of winning.  If you return False, it's 0% chance of winning. You
+    # have to return True with probability p, and False with
+    # probability (1-p). For example, if p=0.2 and we run
+    # `simulate(0.2)` 100 times, on 20 times it returns True and the
+    # other 80 times it returns False. But this function returns only
+    # one boolean at a time, so that boolean (True or False) has to be
+    # random, thanks to calling the function `fair_coin()`.
+
     # TODO: implement this function, without defensive programming
 
-    return
+    return True
 
 
 def test_simulator(p, N=int(1e5)):
@@ -31,4 +40,3 @@ def test_simulator(p, N=int(1e5)):
         success += simulate(p)  # Booleans convert implicity to integers.
 
     return success / N
-
