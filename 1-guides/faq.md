@@ -19,3 +19,9 @@ Test the new settings by typing the start of a for loop with `for `:
 - if you see a full line of code, you still need to disable AI completion
 
 Please ask us for any help in this regard.
+
+## I pass all the Autograder tests, why don't I get the full 91 points?
+
+__Answer 1__: if you get 90.9999, that's normal, it's rounding error because the debugging exercises are not graded on doc-tests nor on defensive programming, so the remaining automatic categories for that exercise are inflated to make 65% of the points in the question.
+
+__Answer 2__: if the difference is more than rounding error, it's because of corner cases, that are only graded and revealed in the last 2 days for an assignment, and second half for an exam.
