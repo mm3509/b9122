@@ -20,9 +20,11 @@ Complete the function to compute the value of a polynomial, where the first argu
 f(x, A) = A[0] + A[1] * x + A[2] * x^2 ... + A[n] * x^n
 ```
 
+This function takes two arguments: a number for `x` and a list of polynomial coefficients for `A`; and returns a number with the value of that polynomial at `x`.
+
 Implement strict defensive programming, assuming that anyone may call your function with arguments that are invalid for a mathematical polynomial calculation (but without worrying about physical limits, like the maximum number for a float).
 
-Implement a first simple version of the function to pass the doc-tests. Then implement the second version, with suffix `_fast`, with [Horner's method](https://en.wikipedia.org/wiki/Horner%27s_algorithm) to pass speed (linear complexity instead of quadratic complexity).
+Implement a first simple version of the function to pass the doc-tests. Then implement the second version, with suffix `_fast`, with [Horner's method](https://en.wikipedia.org/wiki/Horner%27s_algorithm) to implement with linear complexity instead of quadratic complexity.
 
 In either function, you may not use built-in fast functions like `sum()` or `np.sum()`.
 
@@ -34,9 +36,11 @@ The moving average of an array `A` with window size `n` is `None` for the first 
 moving_average[i] = (A[i - n + 1] + A[i - n + 2] + ... + A[i]) / n
 ```
 
+This function takes two arguments: a list of values for `A`, and the size of a window for `n`; and returns a list with all the moving averages (or `None` if they cannot be computed).
+
 Implement strict defensive programming, assuming that anyone may call your function with arguments that are invalid for a mathematical calculation of the moving average (but without worrying about physical limits, like the maximum number for a float).
 
-Complete the first function to implement this moving average and return a list of the same size as the original list. Optimize the second function so it gives the same results as the first, but is faster and passes the speed test.
+Complete the first function to implement this moving average (in a very simple way) and return a list of the same size as the original list. Optimize the second function so it gives the same results as the first, but is faster and passes the speed test.
 
 In either function, you may not use built-in fast functions like `sum()` or `statistics.mean()`.
 
