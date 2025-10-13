@@ -25,3 +25,25 @@ Please ask us for any help in this regard.
 __Answer 1__: if you get 90.9999, that's normal, it's rounding error because the debugging exercises are not graded on doc-tests nor on defensive programming, so the remaining automatic categories for that exercise are inflated to make 65% of the points in the question.
 
 __Answer 2__: if the difference is more than rounding error, it's because of corner cases, that are only graded and revealed in the last 2 days for an assignment, and second half for an exam.
+
+## I'm from AFA and we won't use code in our future jobs, can we have a take-home exam?
+
+__Short answer__ (TL;DR, too long; didn't read): unfortunately, no.
+
+__Long answer__:
+
+I understand that AFA students have a need for making good use of your time, for rest and relaxation.
+
+I have a need for fairness and making good use of my time, and below I explain below the four reasons for declining this request:
+
+(1) If I allow the AFA class to do a take-home exam, I will have to explain to the FE section why they are not allowed that, which would take around 2 days of work and is not a good use of my time.
+
+(2) If I do a take-home exam, the temptation to cheat is just too big. I provide an Autograder, which means that students can try small changes in the code to improve their grade. When running out of ideas to improve the grade, it's easy to turn to generative AI, and impossible to monitor in a take-home exam. Furthermore, MS students don't have non-disclosure to employers, so that's an additional temptation to improve your grade. You may say that "students respect your rules", but unfortunately, in my experience when I first taught this class in 2024, students cheeated and used generative AI during take-home exams, which I took several days to investigate, is not a good use of my time, and is the worst part of my job. Therefore, a take-home exam is unfair for those students who do follow the rules, because their colleagues may not. I have never had any of these issues with in-person exams. When I decided for a take-home exam in 2024, I had no data on the prevalence of cheating and could give students the benefit of the doubt; now I do, and decided that the benefits are not worth the risks.
+
+(3) The grades for asssignments and exams in 2024 were very close to the maximum, most students attended all lectures, and therefore the difference in overall numerical grades came from class participation. At the end of the course, I had complaints from students saying "I don't understand: I had the maximum grade in the assignments and the exams, how can I have an A-/B+/B-?" I don't think it's fair to grade a software class mainly from class participation.
+
+(4) I already give 35% of grade based just on effort and showing up; I allow 2 freebie lectures; I drop the grade with the lowest assignment; I allow open-book and open-notes during assignments and exams. I provide an Autograder, which is a significant toll on my time and energy, to give you a realtime indication of your grade for assignments and exams (which no other class at CBS provides, as far as I'm aware). In exchange, compared to other classes, I ask for students' time and energy in studying for 2 in-person exams. For a university with the reputation and quality of Columbia, surely you think that's fair.
+
+Regarding your need for making good use of your time, i.e. that you won't need programming in your future job, let us talk during office hours how I can make the second half of the course more interesting and practical for you and your colleagues.
+
+Regarding your need for rest and relaxation in the face of job search pressures, I was sympathetic to this argument. Unfortunately, when I took a similar request to my superiors last year, their reply was, essentially this: "please remind them that this is what they signed up for."
