@@ -1,6 +1,6 @@
 # Assignment 2
 
-The maximum comment share for this assignment is 40%: for every 10 lines that you add in the code, at most 4 should be comments.
+The maximum comment share for this assignment is 40%: for every 10 lines that you add in the code, at most 4 should be comments; except for the debugging exercise 1, where it is 80%.
 
 To practice defensive programming, this assignment gives one doc-test for corner cases. You will have to anticipate what other corner cases could occur for the first 10 days of the assignment. In the last 2 days, Autograder will reveal the corner cases, one at a time.
 
