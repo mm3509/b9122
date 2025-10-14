@@ -10,7 +10,7 @@ This message contains important reminders about the exam which takes place on We
 
 If you are registered for accommodations and received a different room assignment and a different schedule, proceed to that room at that time.
 
-The exam is open-book and open-notes; you can use the internet and StackOverflow.
+The exam is open-book and open-notes. As long as you don't use generative AI (see below), you can use any file (on your computer, on Canvas, on our GitHub), StackOverflow, and the internet.
 
 ## Is the exam proctored?
 
@@ -43,6 +43,8 @@ If the issue persists, please ask us for help.
 - A laptop that is fully charged, where you will write your answers
 
 - A laptop charger
+
+- If you want, pen and paper, to solve exercises by hand before coding
 
 - A backpack to hold everything else, which you will bring to the front of the room before the start of the exam
 
