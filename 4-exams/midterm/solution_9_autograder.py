@@ -1,0 +1,108 @@
+import numpy as np
+
+
+BOOL_TYPES = (bool, np.bool_)
+NUMBER_TYPES = (int, float, np.float64)
+ALL_TYPES = [BOOL_TYPES, NUMBER_TYPES, list, dict, str]
+
+
+def helper_are_floats_equal(correct, student):
+    """
+    >>> helper_are_floats_equal(49, 48.999999)
+    True
+    """
+
+    # Students: you don't need to do anything here.
+
+    # Students: it's important to use bool(), which casts np.True_ to
+    # True. Otherwise, the doc-tests fail on Autograder, where they show
+    # `np.True_` instead of `True`.
+    return bool(np.isclose(correct, student))
+
+
+def helper_are_lists_equal(correct, student):
+    if len(correct) != len(student):
+        return False
+
+    for i in range(len(correct)):
+        if not are_answers_equal(correct[i], student[i]):
+            return False
+
+    return True
+
+
+def helper_are_dicts_equal(correct, student):
+    if set(correct) != set(student):
+        return False
+
+    for key in correct:
+        if not are_answers_equal(correct[key], student[key]):
+            return False
+
+    return True
+
+
+def are_answers_equal(correct, student):
+    """
+    >>> are_answers_equal(49, 48.9999999)
+    True
+    >>> are_answers_equal([1, 2, 3], [1, 2, 3])
+    True
+    >>> are_answers_equal([1, 2.00000001], [1, 2])
+    True
+    >>> are_answers_equal({"a": [1, 2.00000001]}, {"a": [1, 2]})
+    True
+    >>> are_answers_equal({"x": 1.00000001}, {"x": 1})
+    True
+    >>> are_answers_equal("abc", "abc")
+    True
+    >>> are_answers_equal("abc", "abd")
+    False
+    >>> are_answers_equal([None, None, 49], [None, 48, 48.9999999999])
+    False
+    >>> dict1 = {"MSFT": ["NYSE", 50000, 0.1]}
+    >>> dict2 = {"MSFT": ["NYSE", 50000, 0.099999]}
+    >>> are_answers_equal(dict1, dict2)
+    True
+    >>> dict1 = {"MSFT": 1, "AAPL": 2}
+    >>> dict2 = {"AAPL": 2, "MSFT": 1}
+    >>> are_answers_equal(dict1, dict2)
+    True
+    >>> dict1 = {"MSFT": 1, "AAPL": 2}
+    >>> dict2 = {"AAPL": 2}
+    >>> are_answers_equal(dict1, dict2)
+    False
+    >>> are_answers_equal(True, np.True_)
+    True
+    >>> are_answers_equal(True, np.False_)
+    False
+    >>> are_answers_equal((1, 2), [1, 2])
+    Traceback (most recent call last):
+    ...
+    AssertionError...
+    """
+
+    if correct is None:
+        return student is None
+
+    found_data_type = False
+    for data_type in ALL_TYPES:
+        if not isinstance(correct, data_type):
+            continue
+        if not isinstance(student, data_type):
+            return False
+        found_data_type = True
+        break
+
+    assert found_data_type, "Data type not found: " + str(type(correct))
+
+    if isinstance(correct, NUMBER_TYPES):
+        return helper_are_floats_equal(correct, student)
+
+    if isinstance(correct, list):
+        return helper_are_lists_equal(correct, student)
+
+    if isinstance(correct, dict):
+        return helper_are_dicts_equal(correct, student)
+
+    return correct == student
