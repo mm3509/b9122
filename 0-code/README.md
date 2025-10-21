@@ -2,7 +2,7 @@
 
 ## merging PDFs
 
-Use case: you want to merge the PDF slides from the solutions I publish after class to the slides you annotated during class
+Use case: you want to merge the PDF slides from the solutions I publish after class to the slides you annotated during class.
 
 This file uses the solutions to the midterm question on slides.
 
@@ -18,4 +18,16 @@ If you are in the afternoon section, this is the equivalent command:
 python merge_pdfs.py afternoon ~/Downloads/lecture-06.pdf ~/Downloads/lecture-06-solutions.pdf
 ```
 
-TODO: publish solutions to midterm, so students can access them.
+If you see this error:
+
+```
+ModuleNotFoundError: No module named 'solution_6_merge_slides'
+```
+
+you need to update the repository on your computer with these commands:
+
+``` bash
+cd $HOME/b9122
+git pull
+```
+
