@@ -120,7 +120,7 @@ DATA_FILEPATH = os.path.join(THIS_DIR, \"data.csv\")"))
   (interactive)
   (insert "    Traceback (most recent call last):
     ...
-    AssertionError
+    AssertionError...
 "))
 
 ;; TODO: change to remove insert
