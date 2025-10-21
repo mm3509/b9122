@@ -20,10 +20,6 @@ def merge_solutions_into_slides(original, solutions, additional_pages):
     Traceback (most recent call last):
     ...
     AssertionError...
-    >>> merge_solutions_into_slides(1, 2, [])
-    Traceback (most recent call last):
-    ...
-    AssertionError...
     >>> merge_solutions_into_slides(1, 3, [1, "cd"])
     Traceback (most recent call last):
     ...
@@ -43,7 +39,11 @@ def merge_solutions_into_slides(original, solutions, additional_pages):
         assert arg >= 1
     assert isinstance(additional_pages, list)
 
-    assert solutions == original + len(additional_pages)
+    # Students: because I trim solutions slides at the point where we end, I
+    # disable this check.        
+
+    # assert solutions == original + len(additional_pages)
+
     assert all([isinstance(p, int) for p in additional_pages])
     assert all([1 <= p <= solutions for p in additional_pages])
     assert len(set(additional_pages)) == len(additional_pages)
