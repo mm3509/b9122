@@ -37,6 +37,6 @@ def test_simulator(p, N=int(1e5)):
     
     success = 0
     for _ in range(N):
-        success += simulate(p)  # Booleans convert implicity to integers.
+        success += int(simulate(p))
 
     return success / N

@@ -7,5 +7,4 @@ with open("watches.json") as f:
 
 true_time = time["true_time"]
 
-
 # TODO: quantify wrongness of watches A and B.
