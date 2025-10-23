@@ -14,9 +14,13 @@ def diarize_return(interest_rate):
     Traceback (most recent call last):
     ...
     AssertionError
+    >>> diarize_return(-0.1)
+    Traceback (most recent call last):
+    ...
+    AssertionError
     """
 
-    assert isinstance(interest_rate, (int, float))
+    assert isinstance(interest_rate, (int, float)) and interest_rate >= 0
 
     # Students: here is the NumPy version:
     # return np.exp(np.log(1 + interest_rate) / DAYS_IN_YEAR) - 1
@@ -25,6 +29,3 @@ def diarize_return(interest_rate):
     # return (1 + interest_rate) ** (1 / DAYS_IN_YEAR) - 1
 
     return math.exp(math.log(1 + interest_rate) / DAYS_IN_YEAR) - 1
-
-
-

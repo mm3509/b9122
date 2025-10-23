@@ -33,6 +33,10 @@ def clean_iban(iban):
     Traceback (most recent call last):
     ...
     AssertionError
+    >>> clean_iban("US12--34")
+    Traceback (most recent call last):
+    ...
+    AssertionError
     """
 
     assert isinstance(iban, str)

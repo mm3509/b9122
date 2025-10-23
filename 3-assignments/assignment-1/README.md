@@ -32,11 +32,11 @@ defensive programming and corner cases after the deadline.)
 
 We will sometimes need to convert a return (like an interest rate or a stock return) from a time period to another. This exercise converts a daily return to a yearly return, assuming that a year has 250 days (the approximate number of trading days in a year).
 
-Add code to the function to pass the doc-tests. Add defensive programming. Use the operator `**` for exponentiation.
+Add code to the function to pass the doc-tests. Add defensive programming. (For simplicity, interest rates have to be non-negative.) Use the operator `**` for exponentiation.
 
 ## 3: diarize a return (20 points for MSFE, 35 points for MSAFA + MSM)
 
-This exercise is the reverse of the previous: it converts an interest rate from annual to daily.
+This exercise is the reverse of the previous: it converts an interest rate from annual to daily. (For simplicity, interest rates have to be non-negative.)
 
 Using the functions `math.log()` and `math.exp()` (or, alternatively, use the NumPy versions: `np.log()` and `np.exp()`), add code to pass the doc-test. Also add defensive programming.
 
@@ -52,7 +52,7 @@ The second function is for reference, for you, in case you later want to use the
 
 Floats have the problem of losing precision; for example `.1 * 3 == .3` returns `False` because of numerical errors in the representation of floating point numbers. That is why e-commerce companies like Stripe first convert any currency into an integer number of **cents**, do all the calculations in integers (such as sales tax), then convert back to dollars and cents to show the user.
 
-This exercise converts a string into an integer number of cents.
+This exercise converts a string into an integer number of cents. Assume that the string comes from a webpage, for example scraped from the internet, does not have currency symbols, and is similar to what you would see on an e-commerce website.
 
 Add defensive programming. You can use the string method `.count()`: `a.count(b)` returns the number of occurrences of string `b` in string `a`.
 
@@ -64,10 +64,10 @@ Some homebanking sites do not let you copy-paste an IBAN when making a transfer 
 
 The first function cleans the IBAN, ignoring spaces, periods, and letter case (including at the beginning and the ending, because of copy-pasting). It throws an error if it is invalid. An IBAN is valid if and only if:
 - it starts with two ASCII letters (don't verify if the country exists)
-- it has any positive number of digits and ASCII letters (and it can have spaces and periods too)
+- it has a positive number of only digits, ASCII letters, spaces and periods in the middle
 - it ends with 2 digits
 
-Add defensive programming and code to the first function. Use the string method `.replace()`, i.e. `a.replace(b, c)` replaces all occurrences of `b` with `c` in string `a` and returns a new string.
+Assume that an IBAN is copy-pasted from a PDF and add defensive programming to cover corner cases. Also implement the first function. Use the string method `.replace()`, i.e. `a.replace(b, c)` replaces all occurrences of `b` with `c` in string `a` and returns a new string.
 
 The second function returns True if the two IBANs are valid and are the same, after being cleaned by the above function. Add code to pass the doc-tests. You needn't add defensive programming to this second function, because the call to `clean_iban()` covers corner cases.
 

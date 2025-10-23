@@ -39,7 +39,7 @@ The template files are on Canvas as a ZIP file. You can double-click to extract 
 
 This function takes two arguments, a buying and selling price, and returns the percentage growth in the price.
 
-The buying price has to be positive (otherwise the quantity of shares that you can buy is infinite) but the selling price can be zero (as shown in the doc-tests).
+The prices have to be strictly positive.
 
 Use case: you want to monitor when a stock drops or rises by more than 10%, so you can decide whether to buy or sell.
 

@@ -210,9 +210,9 @@ The weights for the final numeric grade are below. Please see `appendix-grading.
 |------------|-------------------------------------------------|
 | 15%        | class attendance                                |
 | 5%         | online polls                                    |
-| 5%         | online quizzes                                  |
 | 5%         | end-of-lecture submissions                      |
 | 10%        | class participation                             |
+| 5%         | online quizzes                                  |
 | 20%        | 5 assignments                                   |
 |            | (5% each, lowest grade dropped)                 |
 | 15%        | midterm exam                                    |

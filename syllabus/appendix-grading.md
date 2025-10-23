@@ -138,7 +138,7 @@ def grade_class_participation(uni, participation_list):
 
 ## Assignments
 
-I release assignments after after a lecture; they are due on the Tuesday around 10 days later, so you have two weekends to complete them. I drop the lowest grade among the 5 assignments.
+I release assignments after a lecture; they are due on the Tuesday around 12 days later, so you have two weekends to complete them. I drop the lowest grade among the 5 assignments.
 
 The grading for assignments and exams is the same: see below for the grading rubric.
 
@@ -146,15 +146,13 @@ The grading for assignments and exams is the same: see below for the grading rub
 
 Exams are in-person and last 3 hours. We will have a midterm and a final exam. See below for the grading rubric.
 
-One week before the exam, I will send you a study guide so you can review the material and be prepared for the exam.
-
 ## Assessment grading rubric and Autograder
 
 This course uses an "Autograder" on Gradescope: you write code to complete the assignments, and I write code that gauges the quality of your code.
 
 For assignments, you have three submissions per day and Autograder will give you an indication of your grade, so you can improve and get maximum points. The earlier you start on the assignments, the more submissions and opportunities for improvement you'll have.
 
-In spite of having 3 submissions per day, you can activate a previous submission until the deadline (due date). For example, your second submission on the last day was good, but you introduced a bug in your third submission that decreased your grade, but you don't have submissions left to submit again. You can go to the history of submissions and activate the previous submission.
+Even though you have 3 submissions per day, you can activate a previous submission until the deadline (due date). For example, your second submission on the last day was good, but you introduced a bug in your third submission that decreased your grade, but you don't have submissions left to submit again. You can go to the history of submissions and activate the previous submission.
 
 Any question marked as "bonus" increases your grade to the maximum of 140 in the particular assessment and do not carry over to other assessments. That is, bonus questions serve as insurance within an assessment (in case you lost points on another question) but not across assessments (in case you lost points on another assignment).
 
@@ -164,9 +162,7 @@ The grade for each assignment and exam is the weighted sum: the sum of points we
 
 Automated grading can be overridden manually. For example, your code passes the doc-tests because you tested specifically for those arguments. We will remove all points in the relevant rubrics. Your grade decreases.
 
-I expect your code to run "out-of-the-box"
-
-Please check our GitHub page, at `1-admin/grading-standards` for examples and guidance on each grading criterion, and the pages at `1-admin/guides` for a guide to GitHub and Gradescope.
+Please check our GitHub page, at `1-guides` for examples and guidance on each grading criterion.
 
 ### Automated grading: 65%
 
@@ -188,6 +184,12 @@ Please check our GitHub page, at `1-admin/grading-standards` for examples and gu
 
 - **Refactoring, conciseness, and DRY** ("Don't Repeat Yourself") (15%): for full credit, the code is well-refactored and DRY ("Don't Repeat Yourself"), no functionality is repeated twice, all functions are under 20 lines (after doc-tests and defensive programming tests).
 
-- **Readability** (other than rubric above on refactoring) (15%): for full credit, the code is easy to read and understand; variable, function and object names are appropriate and convey meaning; functions are clear in what they do; they follow the "happy path". The code is so clear in what it does that there are obviously no bugs.
+- **Readability** (other than rubric above on refactoring) (15%): for full credit, the code is easy to read and understand; variable, function and object names are appropriate and convey meaning; functions are clear in what they do; they follow the "happy path". The code is so clear in what it does that there are obviously no bugs. There is no extraneous code left in the assignment, for example debugging tools, or code you used to check your solution.
 
-- **Comments** (5%): Comments are used wisely, to convey meaning to humans (e.g., to fix bugs, to add notes to yourself later). For full credit, all comments follow the StackOverflow guidelines.
+- **Comments** (5%): Comments are used wisely, to convey meaning to humans (e.g., to fix bugs, to add notes to yourself later). For full credit, all comments follow the [StackOverflow guidelines](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments/).
+
+If you have a question about your grade, you can contact the TA who graded this assignment for clarifications. If the TA made a mistake, as sometimes happens, the TA can revert the mistake. If the TA did not make a mistake, you can come to Office Hours or talk to me after lecture with a grade revision request. If we cannot find a suitable solution, the School has a grade appeal process that you can pursue; please contact the Office of Student Affairs for more information.
+
+Except for gross negligence by the TA, manual grades are final. That is, I will not consider grade revision requests. We can explain our grading criteria, of course, and sometimes we make mistakes (as all humans do), but we will not enter the usual "hunt for points game" after publishing grades. I justify to the school the expense of hiring TAs to save me grading time. If I have to review manually every revision request, it defeats the purpose of hiring a TA. Also, if I grant a revision request to one of you, for fairness I have to grant it to all of you, which partly defeats the purpose of manual grading (i.e., we might as well give those 35% of points to everyone). We already provide an Autograder (which, as far as I am aware, no other course at CBS provides) so you can improve your code and increase your points in automated grading; for manual grading, though, we will only read your code once, and expect it to be a polished and final version. In short, surely you think that's a good tradeoff to have many revisions in 65% of your grade that is automated but no revision on the remaining 35% that is manual.
+
+Also, please bear in mind that I drop the lowest grade out of 5 assignments, that I selected the TAs among the best students from last year's course, that I know and vetted them personally as dedicated and competent, that grading hundreds of assignments in only a few days takes at least 10 hours and that the TAs do it quickly so you can have feedback for the next assignment, and that they work hard to provide individual feedback and annotations on your code. My suggestion is to adopt a "growth mindset", where feedback, even negative/constructive, is a gift. It is an opportunity for you to improve yourself, regardless of how your colleagues did. That alone should be worth more than whatever points you lost and serve you well beyond programming and coursework.
