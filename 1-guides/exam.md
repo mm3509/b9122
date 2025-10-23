@@ -46,13 +46,13 @@ If the issue persists, please ask us for help.
 
 - If you want, pen and paper, to solve exercises by hand before coding
 
-- A backpack to hold everything else, which you will bring to the front of the room before the start of the exam
+- A backpack to hold everything else (including headphones), which you will bring to the front of the room before the start of the exam
 
 ## What should I do before the exam?
 
 - Install Google Chrome and Proctorio, and take the Proctorio test exam on Canvas (under "Quizzes").
 
-- Change your default search engine to DuckDuckGo or install the DuckDuckGo app. You cannot use Google.
+- Change your default search engine to DuckDuckGo or install the DuckDuckGo app (but you still need to take the exam on Google Chrome, not on the DuckDuckGo browser). You cannot use Google Search.
 
 - Disable AI code completion in your text editor.
 
@@ -78,9 +78,15 @@ If the issue persists, please ask us for help.
 
 ### During the exam
 
+- Open the links in a NEW tab, otherwise you get disconnected from Proctorio. To do that, use right-click, then "Open in a new tab", or Command-click (on macOS) or Control-click (on Windows)
+
+- Do not submit the quiz until the very end, otherwise you get disconnected from Proctorio.
+
 - Do not use generative AI (penalty: 2x the points in the question).
 
 - Do not cheat.
+
+- Do not close your laptop lid, otherwise you disconnect Proctorio.
 
 - Other than logging into Canvas, do not use your phone nor tablet (penalty: 1 point).
 
