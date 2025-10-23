@@ -40,7 +40,7 @@ def merge_solutions_into_slides(original, solutions, additional_pages):
     assert isinstance(additional_pages, list)
 
     # Students: because I trim solutions slides at the point where we end, I
-    # disable this check.        
+    # disable this check.
 
     # assert solutions == original + len(additional_pages)
 
