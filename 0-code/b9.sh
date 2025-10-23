@@ -113,7 +113,7 @@ b9-doctests () {
     if [ $? -eq 0 ]; then
         # Run again, with verbose, to catch the case where 0 doc-tests were run.
         doctest_output=$(b9-doctests-verbose $@)
-        if [[ "${doctest_output}" =~ "0 tests" ]]; then
+        if [[ "${doctest_output}" =~ " 0 tests" ]]; then
             echo "------------------------------------------------------"
             echo "--                                                  --"
             echo "-- One (or more) of your files is missing doc-tests --"
