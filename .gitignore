@@ -14,3 +14,4 @@ __pycache__/*
 3-assignments/**/solution*
 2-lectures/**/solution*
 **/generate_*
+**/defaults.csv
