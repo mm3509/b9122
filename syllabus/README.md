@@ -36,7 +36,7 @@ We welcome students from all divisions and departments, contingent on availabili
 
 **TA Office Hours**:
 
-- David C: Thursdays 11am-12pm ([online for the time being](https://gsb-columbia-edu.zoom.us/j/3969619582))
+- David C: Thursdays 11am-12pm (Kravis 9th floor student cubicles)
 
 - Lianchen Z: Thursdays 12.50-1.50pm (Kravis 930)
 
