@@ -6,7 +6,7 @@ Use cases are for you to understand context and anticipate corner cases. You do 
 
 From now on, for readability, your functions should be under 20 lines (ignoring blank lines, comments, and defensive programming). To stay under this limit, you should refactor a long function into smaller helper functions.
 
-## 1: debugging
+## 1: debugging (20 points for MSFE; 40 points for MSAFA)
 
 This function is similar to a problem from the midterm, but now supports amounts up to quintillions of dollars. The input still represents a monetary amount, so it has at most 2 digits in the decimal part.
 
@@ -16,23 +16,23 @@ Read and understand the bug (reading someone else's code is an important part of
 
 If needed, learn about new functions and methods in the code.
 
-## 2: string to maximum comment share
+## 2: string to maximum comment share (20 points for MSFE; 50 points for MSAFA)
 
-Use case: In assignment 2, some of you asked that the maximum comment share for debugging exercises be larger than the default comment share. This function implements part of that feature. It takes a string, which is the text of the assignment in Markdown format, and returns a dictionary with the default maximum share and the debug maximum share (both integers).
+Use case: In assignment 2, some of you asked that the maximum comment share for debugging exercises be larger than the default comment share.
+
+This function reads an assignment description in Markdown format and extracts the "comment share" settings. It returns a dictionary with two integer values: 1) in the `default` key: the normal comment share percentage; 2) in the `debug` key: the comment share percentage for debugging exercises, which is higher than the default share.
+
+Here are rules of the input:
+
+1. Only one line in the description may contain the phrase “comment share”.
+
+2. That line can specify: 1) one percentage, which is the default share; or 2) two parts separated by a semicolon (`;`), where one and only one part contains the string `debug`.
+
+3. Percentages must include the `%` sign, and the percentage can appear before or after the string `comment share`.
 
 For example input and outputs, please see the doc-tests.
 
-Here are some rules for a valid Markdown file specifying an assignment or exam:
-
-- Only one line in the text should specify the comment share, with the string `"comment share"` (otherwise, Autograder does not know which to choose);
-
-- A document may have at most one line specifying the comment share (for example, in case there are no debugging exercises);
-
-- If two comment shares are specified in the same line, they should be separated by a semicolon (`;`), and one (and only one) part of the sentence should have the string `"debug"` to indicate which;
-
-- The comment share must be in percentage format, but can appear before or after the string `"comment share"`.
-
-## 3: search algorithm
+## 3: search algorithm (20 points for MSFE; 50 points for MSAFA)
 
 This function takes a non-empty list of integers and returns a tuple with two elements, the minimum and the maximum, in that list. (See the template file for how to return a tuple.) In this exercise, you cannot use `min()` nor `max()`, nor any other similar functions.
 
@@ -40,7 +40,7 @@ To find the minimum (or the maximum) in a list of `n` elements, we need to make 
 
 Nevertheless, when we look for **both** the minimum and the maximum in a list, we can save `(n - 1) / 2` comparisons and make only `3 (n - 1) / 2` comparisons. First, think how you can save that amount of comparisons. Then, implement this in the fast version of the function. Note that the autograder may not be able to distinguish solutions with the right number of comparisons from those with too many comparisons, so please do not rely on Autograder speed to judge whether your fast algorithm is fast enough.
 
-## 4: binary search (MSFE only)
+## 4: binary search (25 points for MSFE; optional 5 points for MSAFA)
 
 This function takes a non-empty list of integers. From the beginning of the list until one position, all elements are zero. From that position onwards the elements are non-zero. We want to find that first non-zero element but we don't know the length of the list (you may not use `len()`). If there are no non-zero elements in the list, return -1. Write a slow version of the function with a very simple algorithm, to have linear complexity in the number of zero elements.
 
@@ -50,7 +50,7 @@ Since we don't know the size of the list, you should use the helper function in 
 
 Because we don't know the length of the list, we only have one corner case, already in the doc-tests.
 
-## 5: robot pathfinding with obstacles (MSFE only)
+## 5: robot pathfinding with obstacles (25 points for MSFE; optional 5 points for MSAFA)
 
 Use case: this is an interview question given to a colleague of yours last year.
 
@@ -58,7 +58,7 @@ A robot is located at the top-left corner of an `m x n` grid (i.e., at `(0, 0)`)
 
 The function takes as argument a 2D list (i.e., a list of lists) representing the grid. The element at position `i, j` is `grid[i][j]`. The value is `True` if that position is open (or free), and `False` if it is closed (it has an obstacle). If a cell has an obstacle, the robot has to avoid it and cannot pass by that position. A grid is valid if it represents a real grid, and if the starting and ending positions are free. The function returns the number of distinct paths from start to finish (or 0, if there are none).
 
-## 6: grid of numbers (MSFE only)
+## 6: grid of numbers (30 points for MSFE only)
 
 This function takes two arguments:
 
