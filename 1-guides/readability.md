@@ -134,6 +134,10 @@ If you want to learn why `x == x` is a bad idea to check for NaNs, here are some
 
 > I'm sure that, given operator overloading, there are lots of ways I could confuse this function. go with math.isnan()
 
+## Standards for assignment 3 onwards
+
+For readability, your functions should be under 20 lines (ignoring blank lines, comments, and defensive programming). To stay under this limit, you should refactor a long function into smaller helper functions.
+
 ## Goal
 
 Here is quote from Hoare:

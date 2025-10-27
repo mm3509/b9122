@@ -66,7 +66,7 @@ This function takes two arguments:
 
 - a non-empty `grid` (or a matrix of numbers), represented as a list of lists (like the exercise on robot paths). The numbers in each row should strictly increase from left to right. The numbers in each column should strictly increase from top to bottom.
 
-The function returns the indices `i, j` such that `grid[i][j]` is `m`, or `None` if `m` is not in the grid.
+The function returns the indices `i, j` such that `grid[i][j] == number`, or `None` if `number` is not in the grid.
 
 You should implement this function to run fast (i.e., do not check every number; instead, use the strict increasing order). Do not implement it in object-oriented programming (if you know about it).
 
