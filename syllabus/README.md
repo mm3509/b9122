@@ -20,8 +20,6 @@ Please contact me if you have any questions about this document, my policies, or
 
 - Section 2 (afternoon): 2:20 pm -  5:35 pm, Geffen Hall 590
 
-**Office Location**: Kravis 570 (by appointment)
-
 **E-mail**: please use Canvas Discussions, or see my email on Canvas.
 
 **TA information**: please see Courseworks (because this repository is public).
@@ -34,7 +32,7 @@ We welcome students from all divisions and departments, contingent on availabili
 
 # Office hours
 
-**Miguel**: Mondays, 12.15-2.15pm (not Monday 10/20) in Kravis 920 (or Kravis 930 10/13, 11/3, 12/1, and 12/8), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8).
+**Miguel**: Mondays, 12.15-2.15pm in Kravis 920 (or Kravis 930 on 11/3, 12/1, and 12/8), first-come-first-serve with a [schedule](https://forms.gle/hvLRzEG9dxnJQogx8).
 
 **TA Office Hours**:
 
