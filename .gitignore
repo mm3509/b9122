@@ -15,3 +15,4 @@ __pycache__/*
 2-lectures/**/solution*
 **/generate_*
 **/defaults.csv
+**/loans.csv
