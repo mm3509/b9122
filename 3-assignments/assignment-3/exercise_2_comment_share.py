@@ -41,4 +41,9 @@ def get_max_percentages(text):
 
     # TODO: implement the function.
 
+    # Students: although \\n is a newline in doc-tests, in code a newline is
+    # \n, with one escape character only. So this is how you can get the lines
+    # in the text:
+    lines = text.split("\n")
+
     return

@@ -32,6 +32,8 @@ Here are rules of the input:
 
 For example input and outputs, please see the doc-tests.
 
+**Note**: in Python, we represent a newline with `\n`. The backslash is called an "escape character"; together with another character, it represents characters such as newlines (`\n`) or tabs (`\t`). But inside doc-tests, the escape character itself needs to be escaped, so inside a doc-test, a newline is `\\n` (that's because doc-strings are strings that first convert to code, so the double escape character converts to a single escape character, which then applies to the character `n` to produce a newline).
+
 ## 3: search algorithm (20 points for MSFE; 50 points for MSAFA)
 
 This function takes a non-empty list of integers and returns a tuple with two elements, the minimum and the maximum, in that list. (See the template file for how to return a tuple.) In this exercise, you cannot use `min()` nor `max()`, nor any other similar functions.
