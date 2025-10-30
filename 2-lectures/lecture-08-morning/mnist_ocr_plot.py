@@ -10,6 +10,10 @@ import matplotlib.pyplot as plt
 
 import exercise_28_knn_mnist
 
+# Students: if you want to run the solution, uncomment this line:
+
+# import solution_28_knn_mnist as exercise_28_knn_mnist
+
 
 def load_data():
     loader = MNISTLoader()
@@ -223,4 +227,10 @@ At k = 10, accuracy = 96.65% (1.8 hours)
 """
 
 if "__main__" == __name__:
+    data = load_data()
+    training_X = data[0]
+    print(type(training_X))
+    print(type(training_X[0]), training_X[0])
+    print(type(training_y))
+    print(type(training_y[0]), training_y[0])
     main()
