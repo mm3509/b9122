@@ -24,7 +24,7 @@ This function reads an assignment description in Markdown format and extracts th
 
 Here are rules of the input:
 
-1. Only one line in the description may contain the phrase “comment share”.
+1. Only one line in the description may contain the phrase "comment share" (but it can appear twice, for example, this line is valid: "The maximum comment share in general is 45%; 50% is the maximum comment share for debugging.")
 
 2. That line can specify: 1) one percentage, which is the default share; or 2) two parts separated by a semicolon (`;`), where one and only one part contains the string `debug`.
 
