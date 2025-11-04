@@ -44,7 +44,7 @@ Nevertheless, when we look for **both** the minimum and the maximum in a list, w
 
 ## 4: binary search (25 points for MSFE; optional 5 points for MSAFA)
 
-This function takes a non-empty list of integers. From the beginning of the list until one position, all elements are zero. From that position onwards the elements are non-zero. We want to find that first non-zero element but we don't know the length of the list (you may not use `len()`). If there are no non-zero elements in the list, return -1. Write a slow version of the function with a very simple algorithm, to have linear complexity in the number of zero elements.
+This function takes a non-empty list of integers. From the beginning of the list until one position, all elements are zero. From that position onwards the elements are non-zero. We want to find the **index** of the first non-zero element but we don't know the length of the list (you may not use `len()`). If there are no non-zero elements in the list, return -1. Write a slow version of the function with a very simple algorithm, to have linear complexity in the number of zero elements.
 
 Now write a fast version of the function using logarithmic complexity in the number of zero elements.
 
