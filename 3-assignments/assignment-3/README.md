@@ -36,7 +36,7 @@ For example input and outputs, please see the doc-tests.
 
 ## 3: search algorithm (20 points for MSFE; 50 points for MSAFA)
 
-This function takes a non-empty list of integers and returns a tuple with two elements, the minimum and the maximum, in that list. (See the template file for how to return a tuple.) In this exercise, you cannot use `min()` nor `max()`, nor any other similar functions.
+This function takes a non-empty list of integers and returns a tuple with two elements, the minimum and the maximum, in that list. (See the template file for how to return a tuple.) In this exercise, you cannot use `min()` nor `max()`, nor any other similar functions (`sorted()`, etc).
 
 To find the minimum (or the maximum) in a list of `n` elements, we need to make `n - 1` comparisons  (i.e., the use of the operation `<` or `>`). Write a slow version of the function that implements this simple idea and makes `2 (n - 1)` comparisons.
 
