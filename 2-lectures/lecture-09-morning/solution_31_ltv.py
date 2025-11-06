@@ -1,4 +1,3 @@
-import os
 import pathlib
 
 import pandas as pd
@@ -54,12 +53,9 @@ def linear_regression():
 
     features = get_features(df_train)
 
-    # TODO: implement linear regression of the outcome on the features, then
-    # predict the value on the test set into the variable y_test_predicted.
+    lm = sklearn.linear_model.LinearRegression()
+    lm.fit(df_train[features], df_train.ltv)
 
-
-    # Students: once the model is fit, you can predict the value of new data
-    # with this syntax:
     y_test_predicted = lm.predict(df_test[features])
 
     return sklearn.metrics.r2_score(df_test["ltv"], y_test_predicted)

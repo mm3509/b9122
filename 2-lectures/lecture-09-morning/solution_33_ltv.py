@@ -21,7 +21,10 @@ for k in tqdm(range_k):
     # TODO: complete this to run kNN with k neighbors, predict on the test
     # dataset into the variable `predictions`, to calculate the r2 with the
     # next line below.
+    knn = sklearn.neighbors.KNeighborsRegressor(n_neighbors=k)
+    knn.fit(df_train[features], df_train.ltv)
 
+    predictions = knn.predict(df_test[features])
     r2 = sklearn.metrics.r2_score(df_test.ltv, predictions)
 
     score_list.append(r2)

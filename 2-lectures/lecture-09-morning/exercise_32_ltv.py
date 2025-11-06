@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 import sklearn.metrics
 import sklearn.neighbors
 
@@ -17,8 +19,14 @@ def knn():
 
     y_test_predicted = knn.predict(df_test[features])
 
-    return sklearn.metrics.r2_score(df_test["ltv"], y_test_predicted)
+    for ft in exercise_31_ltv.get_features(df_train):
+        x = df_train[ft]
+        y = df_train["ltv"]
+        plt.scatter(x, y)
+        plt.title("Feature: " + ft)
+        plt.show()
 
+    return sklearn.metrics.r2_score(df_test["ltv"], y_test_predicted)
 
 
 print(f"R2 from k-nearest neighbors: {knn():.2f}")

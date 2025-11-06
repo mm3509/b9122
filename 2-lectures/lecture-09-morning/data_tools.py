@@ -1,12 +1,12 @@
 import os
 import pathlib
 
-import fredapi
 import pandas as pd
 import yfinance
 
 THIS_DIR = pathlib.Path(__file__).resolve().parent
 DATA_FILEPATH = os.path.join(THIS_DIR, "rates.ft")
+
 FED_FUNDS = "DFF"
 SP500 = "^SPX"
 RISK_FREE = "risk_free"
