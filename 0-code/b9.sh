@@ -129,6 +129,10 @@ b9-github () {
     b9-open-link "https://github.com/mm3509/b9122"
 }
 
+b9-2024-github () {
+    b9-open-link "https://github.com/mm3509/b9122-2024"
+}
+
 b9-canvas () {
     b9-open-link "https://courseworks2.columbia.edu/courses/232050"
 }
