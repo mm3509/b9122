@@ -169,5 +169,5 @@ if \"__main__\" == __name__:
   (interactive)
   (insert "d = os.path.dirname(fp)
 fn = os.path.basename(fp)
-stem, extension = os.path.splitext(fn)
+stem, extension = os.path.splitext(fn)  # extension is now '.py' (or equivalent)
 "))
