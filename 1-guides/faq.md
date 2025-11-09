@@ -6,7 +6,9 @@ This is a constraint from Gradescope, which doesn't let us apply deductions in p
 
 <img src="../.img/manual-grading.png">
 
-You can see this part at the bottom of the right tab on Gradescope. The first test on Gradescope explains how those percentage deductions apply to your grading cap, for example:
+You can see these on Gradescope, on the right tab, under the passed tests, at the very bottom.
+
+The first test for exams explains how those percentage deductions apply to your grading cap, for example:
 
 ```
 Your grading cap is 46.07.

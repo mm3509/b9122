@@ -28,7 +28,7 @@ def summarize_grades(filename):
     minimum = 0
     maximum = 140
     num_bins = 20
-    bins = np.linspace(minimum, maximum + 1, num_bins)
+    bins = np.linspace(minimum, maximum, num_bins)
 
     x = [random.gauss(3,1) for _ in range(400)]
     y = [random.gauss(4,2) for _ in range(400)]
@@ -43,6 +43,7 @@ def summarize_grades(filename):
 
         plt.hist(program_grades, bins, alpha=0.5, label=program)
         plt.title(program)
+        plt.savefig(program + ".png")
         plt.show()
 
 
