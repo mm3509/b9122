@@ -1,5 +1,30 @@
 # FAQ
 
+## I don't understand the manual grading of an exam
+
+This is a constraint from Gradescope, which doesn't let us apply deductions in percentage points. The TA grades your code and applies percentage deductions like this:
+
+<img src="../.img/manual-grading.png">
+
+You can see this part at the bottom of the right tab on Gradescope. The first test on Gradescope explains how those percentage deductions apply to your grading cap, for example:
+
+```
+Your grading cap is 46.07.
+Your total percentage deductions are 6.0%.
+Your manual grade is 43.31.
+
+The details your manual grading cap by exercise (the maximum  manual points you can get for each exercise) are:
+
+  Exercise 1: 1.75
+  Exercise 3: 3.15
+  Exercise 4: 4.55
+  Exercise 5: 5.95
+  Exercise 6: 7.00
+  Exercise 7: 8.17
+  Exercise 8: 8.75
+  Exercise 9: 8
+```
+
 ## Can I bring a cheat sheet?
 
 Student question: "Using AI to produce a cheatsheet is forbidden, but can I use DuckDuckGo with AI features banned and your b9122 github repo as well as lecture slides to prepare a cheatsheet and look it up in the exam?"
