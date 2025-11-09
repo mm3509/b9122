@@ -6,6 +6,8 @@ This is a constraint from Gradescope, which doesn't let us apply deductions in p
 
 <img src="../.img/manual-grading.png">
 
+The TA also adds a comment in your submitted files on Gradescope to show the lines of code that caused those deductions. Please click on "Code" at the top right to see it.
+
 You can see these on Gradescope, on the right tab, under the passed tests, at the very bottom.
 
 The first test for exams explains how those percentage deductions apply to your grading cap, for example:
