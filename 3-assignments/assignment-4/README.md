@@ -18,7 +18,7 @@ Note: because of the random element, it's possible that you fix the bug but Auto
 
 This exericse comes from LeetCode (easy level), with some modifications.
 
-This function takes as input a list of strings of length `n` and returns the majority element. The majority element is the element that appears more than `int(n / 2)` times. If the majority element does not exist or is not unique, the function returns `None`.
+This function takes as input a list of strings of length `n` and returns the majority element. A majority element is an element that appears `int(n / 2)` times or more. If no majority element exists, or if there are two majority elements, the function returns `None`.
 
 Do not use `collections.Counter` (if you know about it).
 
