@@ -74,6 +74,10 @@ After generating input data, run the Python file `experiment_with_linear_regress
 
 Add a comment in the file explaining why linear regression does not make sense in the case of the data you generated. Also upload the figure to Gradescope without changing the filename (`linear-regression.png`).
 
+__Student question:__ I'm not entirely sure if this is what Q5 is asking for. Could you elaborate or tell me if my example is good?
+
+__Answer__: One example in the code, and also in class, had expenses following an inverted V-shape. In this case, the relationship was clearly not linear, so linear regression was a poor fit. You need to simulate another dataset for expenses that also has these properties: the relationship between expesens and time is not linear, and so linear regression is a poor fit. If you look at your picture and you see clearly that expenses are not linear, then your example is good.
+
 ## 6: k-Nearest Neighbors (MSFE only, 15 points)
 
 This exercise and the next use the same dataset: a publicly available dataset on [credit card transactions](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). For privacy reasons, the explanatory variables (`V1-V28`) in this dataset are obfuscated (they come from "dimensionality reduction" via Principal Components Analysis, and these are the most relevant factors). The other variables are the transaction amount and the label (1 for fraud, 0 for non-fraud). You need to unzip and extract the dataset in `creditcardfraud.zip`.
