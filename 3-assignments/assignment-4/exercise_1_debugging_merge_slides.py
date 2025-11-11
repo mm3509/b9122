@@ -3,7 +3,7 @@ import random
 
 def generate_merge_slides(random_seed):
     """
-    >>> a = generate_merge_slides(0)
+    >>> a = generate_merge_slides(14)
     >>> original = a[0]
     >>> solutions = a[1]
     >>> additional = a[2]
