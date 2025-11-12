@@ -159,8 +159,8 @@ def main():
     )
 
     while True:
-        time.sleep(60)
         check_thresholds()
+        time.sleep(60)
     
 
 if '__main__' == __name__:
