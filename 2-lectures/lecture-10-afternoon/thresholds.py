@@ -1,9 +1,10 @@
 import json
 import os
-from datetime import date
 import pathlib
 import sys
+import time
 
+from datetime import date
 
 import data_tools
 
@@ -157,7 +158,9 @@ def main():
         threshold=4000
     )
 
-    check_thresholds()
+    while True:
+        time.sleep(60)
+        check_thresholds()
     
 
 if '__main__' == __name__:
