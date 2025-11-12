@@ -86,3 +86,21 @@ I have a need for fairness and making good use of my time, and below I explain b
 Regarding your need for making good use of your time, i.e. that you won't need programming in your future job, let us talk during office hours how I can make the second half of the course more interesting and practical for you and your colleagues.
 
 Regarding your need for rest and relaxation in the face of job search pressures, I was sympathetic to this argument. Unfortunately, when I took a similar request to my superiors last year, their reply was, essentially this: "please remind them that this is what they signed up for."
+
+## I need to be away from New York on the date of the exam, can I do it earlier or online?
+
+__Short answer__ (TL;DR, too long; didn't read): yes, if you arrange it with the Office of Student Affairs.
+
+__Long answer__: If your reason to miss the exam is an excused absence, please contact the Office of Student Affairs, which runs make-up exams.
+
+Unfortunately, the answer is no, you cannot take the exam earlier in-person, nor online. Here are my reasons:
+
+(1) Taking the exam online carries the risk of using generative AI, which is why I want my exams to be in-person. Furthermore, previous students have asked for a take-home midterm exam instead of in-person, and I declined that request for this same reason (see above).
+
+(2) Giving an in-person exam in late November for just one person is either the same exam  or a different one. The same exam runs the risk of the exam leaking to other students; I'm not saying that any one stuent would do this, just that mistakes can happen, and it's a risk I do not want to take. A different exam is a lot of work for me and for the TAs: drafting questions, writing solutions, preparing the Autograders, iterating back-and-forth with the TAs for several days or even weeks to remove all the bugs and confusions. I give two separate final exams for the two sections because the benefits for students exceed the costs for us. But for one person, the benefit is too small compared to the cost.
+
+(3) Students are required to be in New York during the term; if I have to accommodate everyone's different schedules, the course would become unmanageable. Therefore, the arrangement is for every student to be in New York in person from lecture 1 to the final, and not for me to find a schedule that is convenient for each student.
+
+That being said, you can still request an exam make-up date from the Office of Student Affairs. Here is what they wrote:
+
+> [Our] office sets exam make-up dates [:...] December 15 and 16. If they want to provide their documentation on [this form](https://urldefense.com/v3/__https://columbia.pdx1.qualtrics.com/jfe/preview/previewId/64561a79-84ab-4693-a07b-e3753725e7de/SV_1RnIqkrFF0ihfwO?Q_CHL=preview&Q_SurveyVersionID=current__;!!BDUfV1Et5lrpZQ!Ug7Fwp-__7QULncxRi_Xg8-lqEdC7Egu-MKUUqT9JioxOUqqAGDrqSJcFyR77DCHWppX4GDFaPrQC38P7gwKWgV-jkDN7g$), we can review in office and give an official yes or no. If it's a funeral or a wake or something, there may be some accommodation we can provide. 
