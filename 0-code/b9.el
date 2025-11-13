@@ -171,3 +171,11 @@ if \"__main__\" == __name__:
 fn = os.path.basename(fp)
 stem, extension = os.path.splitext(fn)  # extension is now '.py' (or equivalent)
 "))
+
+((defun b9-train-test-split ()
+   (interactive)
+   (insert "
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0, test_size=0.7)
+")))
