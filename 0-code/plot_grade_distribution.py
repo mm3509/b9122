@@ -6,6 +6,7 @@ import random
 import pandas as pd
 from matplotlib import pyplot as plt
 import numpy as np
+import statistics
 
 
 THIS_DIR = pathlib.Path(__file__).resolve().parent
@@ -30,15 +31,13 @@ def summarize_grades(filename):
     num_bins = 20
     bins = np.linspace(minimum, maximum, num_bins)
 
-    x = [random.gauss(3,1) for _ in range(400)]
-    y = [random.gauss(4,2) for _ in range(400)]
-
     for program in programs:
         program_df = df[df[PROGRAM_COL] == program]
         program_grades = program_df[GRADE_COL]
 
         print("*" * 80)
         print("Summary statistics for program:", program)
+        print(f"Median:   {statistics.median(program_grades):.6f}")
         print(program_grades.describe())
 
         plt.hist(program_grades, bins, alpha=0.5, label=program)

@@ -65,7 +65,7 @@ b9-discussions () {
 }
 
 b9-gradescope () {
-    b9-open-link "https://www.gradescope.com/courses/1104441"
+    b9-open-link "https://www.gradescope.com/courses/1104441/assignments"
 }
 
 b9-pollev () {
@@ -83,7 +83,7 @@ b9-style () {
         python -m pip install flake8
     fi
 
-    python -m flake8 $1 --ignore=W504,E128,E127,E303,E251,W291,W391,E302,E305,E241,E261,E261,F841,E124,W292,W293,W503,W504
+    python -m flake8 $1 --ignore=W504,E128,E127,E303,E251,W291,W391,E302,E305,E241,E261,E261,E124,W292,W293,W503,W504
 }
 
 b9-guide-comments () {
