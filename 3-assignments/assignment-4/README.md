@@ -12,7 +12,13 @@ This function generates input test data for the midterm exercise on merging slid
 
 Find the bug, fix it, and add a comment explaining the bug.
 
-Note: because of the random element, it's possible that you fix the bug but Autograder says that your results don't pass. If that happens to you, please mention it on Canvas Discussions and I will change the Autograder to accept your results.
+When fixing the bug, your answer must match the use case:
+
+- the number of pages in the solution slides has to be greater or equal to the number of pages in the original slides;
+
+- the difference between the two must equal the length of the list with additional pages;
+
+- every additional page must represent a page in the solution slides.
 
 ## 2: majority element (15 points for MSFE, 30 points for MSAFA)
 
@@ -64,9 +70,9 @@ The third function should call the first two and return the average expense for 
 
 Linear regression is the optimal predictor under some assumptions, such as a linear relationship between inputs and output. But when the relationship is not linear, linear regression can be a bad predictor.
 
-The exercise provided generates data where the expenses are all in the first month or the last month. If you run `experiment_with_linear_regression.py`, you can see that linear regression is a poor fit for this data.
+The exercise provided generates data where the expenses are all in the first month or the last month. If you run `experiment_with_linear_regression.py`, you can see that linear regression is bad for this dataset.
 
-In this exploratory exercise, you will search for anoother counter-example to the optimality of linear regression. The example you find must be conceptually different from the one I provide (expenses at the beginning or the end) and from what we saw in class (linear regression not guaranteed to use exactly the duration, nor the exact budget).
+In this exploratory exercise, you will search for another example __where linear regression is also bad__. The example you find must be conceptually different from the one I provided (expenses at the beginning or the end, or following an inverted-V shape) and from what we saw in class (linear regression not guaranteed to use exactly the duration, nor the exact budget).
 
 Complete the file to generate input data, with code similar to the example helper function, but producing a different pattern.
 
