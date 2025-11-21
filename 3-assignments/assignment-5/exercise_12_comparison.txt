@@ -1,0 +1,1 @@
+Why is using BeautifulSoup better for web scraping, or why not?
