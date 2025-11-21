@@ -49,14 +49,16 @@ Use case: this is an interview question.
 This function takes as input a list of integers of length `n`. For a triplet `i, j, k`, such that `0 <= i <= j <= k <= n`, the gross value is (using Python's slice notation):
 
 ```
-gross_value = sum(alist[:i]) - sum(alist[i:j]) + sum(alist[j:k]) + sum(alist[k:])
+gross_value = sum(alist[:i]) - sum(alist[i:j]) + sum(alist[j:k]) - sum(alist[k:])
 ```
+
+For example, if the array is `[-5, 3, 9, 4]` as in the doc-tests, the optimal triplets are `(0, 1, 4, 4)`: `sum(alist[:0]) - sum(alist[0:1]) + sum(alist[1:4]) - sum(alist[4:]) = 0 - (-5) + (3 + 9 + 4) - 0 = 21`.
 
 If the sliced array is empty, then its sum is zero, for example, `sum(alist[:0])` or `sum(alist[n:])`.
 
 The function returns an integer, which is the maximum gross value among all triplets. For specific values, please see the doc-tests.
 
-Write a slow version of your function with a trivial implementation with cubic complexity, i.e. 3 nested for loops
+Write a slow version of your function with a trivial implementation with complexity O(n^4), i.e. 3 nested for loops with a sum inside.
 
 ## 6: gross value triplets + speed (MSFE only, 20 points)
 
