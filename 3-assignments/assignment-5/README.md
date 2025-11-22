@@ -116,11 +116,11 @@ If the answer has a line with a long regular expression, you can add this at the
 
 I asked several generative AI providers for this, multiple times, and none of them could find the federal funds rate. Either way, whether you are able to run the code or not:
 
-- change the name of the function to `get_federal_funds_rate()` and make it take an argument (the URL above), so that Autograder can find it and run it;
+- add the prompt you used at the top of the file in a comment;
 
-- add the prompt you used at the top of the file in a comment
+- add the answer from generative AI;
 
-- add the answer from generative AI.
+- change the name of the function to `get_federal_funds_rate()` and make it take an argument (the URL above), so that Autograder can find it and run it.
 
 ## 12: comparison of generative AI answers, genAI NOT allowed (15 points for MSFE, 20 points for MSAFA)
 
