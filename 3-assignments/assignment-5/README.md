@@ -88,7 +88,7 @@ In this exercise, you'll implement this conversion in three steps:
 
 - from a list of all English words and the above function, and build a dictionary where a number is associated with a list of words that match that number;
 
-- taking a number as input and with the above dictionary, return the list of all English words that match that number.
+- taking a number as input and with the above dictionary, return the list of all English words that match that number, in alphabetical order.
 
 The file `exercise_pin.py` has a class `Converter` and methods that implement these steps. Add defensive programming doc-tests and complete the methods marked with `# TODO` to pass the doc-tests.
 
