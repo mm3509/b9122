@@ -44,6 +44,7 @@ def reshape(flat_img):
 
 
 def show_sample_images(train_X, train_y):
+    print("Showing sample images")
     for i in range(9):  
         plt.subplot(330 + 1 + i)
         # Remove ticks.
@@ -53,6 +54,7 @@ def show_sample_images(train_X, train_y):
         plt.imshow(reshape(train_X[j]), cmap=plt.get_cmap('gray'))
         plt.title(train_y[j], color="g")
     plt.show()
+    print("Shown sample images, please close graphic to proceed")
 
 
 def show_single_image(data):
@@ -79,6 +81,14 @@ def sci_notation(d):
     exponent = math.floor(math.log(d) / math.log(10))
     significand = "%.1f" % (d / 10 ** exponent)
     return significand + " x 10^%d" % exponent
+
+
+def difference(x, y):
+    """Computes difference, converting to signed integers with 32
+    bits. Otherwise, with unsigned 8-bit integers, 0 - 1 = 255
+    (overflow/saturation arithmetics).
+    """
+    return x.astype("int32") - y.astype("int32")
 
 
 def show_correct_wrong(test_X, test_y, train_X, train_y, k=1, start_with=[]):
@@ -162,8 +172,7 @@ def show_correct_wrong(test_X, test_y, train_X, train_y, k=1, start_with=[]):
                 plt.yticks([], [])
                 
                 plt.subplot(233)
-                diff = exercise_28_knn_mnist.difference(train_X[nearest],
-                                                        test_X[i])
+                diff = difference(train_X[nearest], test_X[i])
                 plt.imshow(255 - numpy.abs(reshape(diff)),
                            cmap=plt.get_cmap('gray'))
                 plt.title("Diff (d = %s)" % sci_notation(d), color=color)
@@ -178,7 +187,7 @@ def show_correct_wrong(test_X, test_y, train_X, train_y, k=1, start_with=[]):
                 plt.yticks([], [])
                 
                 plt.subplot(236)
-                diff = exercise_28_knn_mnist.difference(train_X[j], test_X[i])
+                diff = difference(train_X[j], test_X[i])
                 plt.imshow(255 - numpy.abs(reshape(diff)),
                            cmap=plt.get_cmap('gray'))
                 plt.title("Diff (d = %s)" % sci_notation(d2),
@@ -195,7 +204,14 @@ def main():
 
     train_X, train_y, test_X, test_y = load_data()
 
-    #show_sample_images(train_X, train_y)
+    print(f"{type(train_X)=}")
+    print(f"{type(train_X[0])=}, {train_X[0]=}")
+    print(f"{type(train_y)=}")
+    print(f"{type(train_y[0])=}, {train_y[0]=}")
+
+    input("Continue?")
+
+    show_sample_images(train_X, train_y)
     show_correct_wrong(test_X,
                        test_y,
                        train_X,
@@ -227,10 +243,4 @@ At k = 10, accuracy = 96.65% (1.8 hours)
 """
 
 if "__main__" == __name__:
-    data = load_data()
-    training_X = data[0]
-    print(type(training_X))
-    print(type(training_X[0]), training_X[0])
-    #print(type(training_y))
-    #print(type(training_y[0]), training_y[0])
     main()
