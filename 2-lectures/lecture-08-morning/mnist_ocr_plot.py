@@ -8,7 +8,7 @@ from mnist_datasets import MNISTLoader
 import matplotlib.pyplot as plt
 
 
-import exercise_28_knn_mnist
+import solution_28_knn_mnist as exercise_28_knn_mnist
 
 # Students: if you want to run the solution, uncomment this line:
 
@@ -195,7 +195,7 @@ def main():
 
     train_X, train_y, test_X, test_y = load_data()
 
-    show_sample_images(train_X, train_y)
+    #show_sample_images(train_X, train_y)
     show_correct_wrong(test_X,
                        test_y,
                        train_X,
@@ -231,6 +231,6 @@ if "__main__" == __name__:
     training_X = data[0]
     print(type(training_X))
     print(type(training_X[0]), training_X[0])
-    print(type(training_y))
-    print(type(training_y[0]), training_y[0])
+    #print(type(training_y))
+    #print(type(training_y[0]), training_y[0])
     main()
