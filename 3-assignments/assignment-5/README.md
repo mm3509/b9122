@@ -54,7 +54,7 @@ This function takes as input a list of integers of length `n`. For a triplet `i,
 gross_value = sum(alist[:i]) - sum(alist[i:j]) + sum(alist[j:k]) - sum(alist[k:])
 ```
 
-For example, if the array is `[-5, 3, 9, 4]` as in the doc-tests, the optimal triplets are `(0, 1, 4, 4)`: `sum(alist[:0]) - sum(alist[0:1]) + sum(alist[1:4]) - sum(alist[4:]) = 0 - (-5) + (3 + 9 + 4) - 0 = 21`.
+For example, if the array is `[-5, 3, 9, 4]` as in the doc-tests, the optimal triplet is `(0, 1, 4)`: `sum(alist[:0]) - sum(alist[0:1]) + sum(alist[1:4]) - sum(alist[4:]) = 0 - (-5) + (3 + 9 + 4) - 0 = 21`.
 
 If the sliced array is empty, then its sum is zero, for example, `sum(alist[:0])` or `sum(alist[n:])`.
 
