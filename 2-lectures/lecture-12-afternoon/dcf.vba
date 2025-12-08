@@ -7,7 +7,7 @@ Dim Year As Integer
 Dim Periods As Integer
 Dim Denominator as Double
 
-DiscountRate = Cells(4, 1).Value
+DiscountRate = Cells(1, 4).Value
 NetPresentValue = 0
 
 For Row = 4 To 21
