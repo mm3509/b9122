@@ -1,0 +1,11 @@
+Why is using BeautifulSoup better for web scraping, or why not?
+
+BeautifulSoup has the advantage of a framework that saves a lot of programmer's time. Similar to how SciKit-Learn already programmed linear and logistic regression, and we don't have to invert matrices in NumPy or program a gradient descent algorithm to find the optimal regression coefficients, BeautifulSoup does a lot of tasks that are repetitive. (In particular, it converts a flat piece of text into an HTML tree, where some elements are nested within other elements; but I didn't expect you to know that.) So BeautifulSoup reduces the variable cost of parsing a new webpage.
+
+On the other hand, BeautifulSoup, like all new frameworks, takes a long time to learn. This is a fixed cost.
+
+The best strategy depends on how often we will code web scraping. If we run web scraping only once, we should consider using regular expressions (such as the generative AI answer that didn't work). If we run web scraping many times, we should consider learning the BeautifulSoup framework. The optimal cutoff `N` equals the fixed cost of learning BeautifulSoup (which I would estimate at 4 hours) minus the fixed cost of learning regular expressions (which I would estimate at 2 hours) divided by the gains in each time we web scrape (which I would estimate at 10 minutes). So if you are going to run web scraping 12 times or fewer, consider regular expressions. If you run it more often than 12 times, consider learning BeautifulSoup.
+
+This tradeoff is similar to buying property: if we live in a city for a week, we should rent a house (paying a higher variable cost of rent a few times to avoid the fixed cost of searching for a house, placing a bid, applying for a mortgage); but if we live in a city for 5 years, we should consider buying a house (paying a higher fixed cost to avoid a higher variable cost of rent many times).
+
+Regarding generative AI's inability to solve this without BeautifulSoup: generative AI can give you a good head start in web scraping, but to fix problems or debug, you will probably need to learn BeautifulSoup. Another example that I  of generative AI

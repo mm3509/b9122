@@ -1,0 +1,23 @@
+(1) The solution that I prefer is:
+
+Which of the three possible solutions (object-oriented programming, closures, no closures) is best depends on the skill of the programmer but is also a matter of preference.
+
+Programmers that don't know closures, or don't master objects well (like you) should prefer the closure-free solution.
+
+After that, closures or object-oriented programming, is a matter of preference. Some programmers dislike object-oriented programming because it adds a lot of unnecessary code, and we could just access those values from a closure. Most programmers nowadays prefer object-oriented programming because, when the code gets bigger, it's easier for one programmer or a team to maintain their own objects.
+
+(2) The concepts from the solutions that I understand well are:
+
+Backtracking uses recursion, which we studied a lot. And it makes sense for backtracking: we try one number in an empty cell, if that new board has a solution, then the original board also has a solution; if the new board has no solution, we erase that number.
+
+The solutions use for loops and ranges, which we saw extensively.
+
+The solutions use integer division, `//`, to access the subgrid, or `3 * (r // 3)`.
+
+(3) The concepts from the solutions that I understand more or less are:
+
+We covered all of these topics, so in principle you should know them all. But it's good feedback for the TAs and I to have, about which concepts we need to cover more.
+
+(4) The concepts from the solutions that I don't understand are:
+
+The first solution defines a function within a function, for example `find_empty()` and `is_valid()`. This is called a "closure", because it "closes over", or has access to, the enclosing environment. For example, `find_empty()` and `is_valid()` have access to the variable `board`, which is not defined as an argument to those functions, but is an argument of the enclosing function `solve_sudoku()`. Closures are an alternative to object-oriented programming in that they let us refactor code into DRY, without passing arguments.
