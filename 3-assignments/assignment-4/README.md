@@ -20,9 +20,19 @@ When fixing the bug, your answer must match the use case:
 
 - every additional page must represent a page in the solution slides.
 
+For example, let's say that you get this result from Autograder:
+
+```
+Failed example with data: 14
+             Your result: (14, 18, [17, 8, 9, 9])
+               My result: (14, 18, [8, 9, 12, 17])
+```
+
+To solve this, consider the use case. Imagine that I had given you a PDF of slides before lecture with 14 slides, a PDF with solutions after lecture with 18 slides, and that I had told you the additional slides were on pages 17, 8, 8 and 9. What would you respond?
+
 ## 2: majority element (15 points for MSFE, 30 points for MSAFA)
 
-This exericse comes from LeetCode (easy level), with some modifications.
+This exercise comes from LeetCode (easy level), with some modifications.
 
 This function takes as input a list of strings of length `n` and returns the majority element. A majority element is an element that appears `m` times or more, where `m = n // 2` if `n` is even and `m = 1 + n // 2` if `n` is odd. If no majority element exists, or if there are two majority elements, the function returns `None`.
 

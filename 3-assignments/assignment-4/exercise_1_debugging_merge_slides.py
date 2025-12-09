@@ -17,8 +17,9 @@ def generate_merge_slides(random_seed):
 
     assert isinstance(random_seed, int)
 
-    # Students: this initializes the random number generator, so that your
-    # answers are reproducible and match the ones from Autograder.
+    # Students: this initializes the random number generator, so that the
+    # answers are reproducible and the exercise raises a bug every time you run
+    # it with the current code, instead of raising an error at random times.
     random.seed(random_seed)
 
     original = random.randrange(1, 81)
@@ -31,10 +32,13 @@ def generate_merge_slides(random_seed):
 
     additional = sorted(set(additional))
 
-    # Students: this is the typical case of using assertions, to confirm
-    # the internal validity of our code (in production code, defensive
-    # programming, would normally use `raise ValueError()`, not `assert
-    # ...`).
+    # Students: this is the typical case of using assertions, to confirm the
+    # internal validity of our code. If these assertions raise errors, it's our
+    # fault and we need to change our code. If defensive programming checks
+    # raise errors, it's the user's fault and they need to change their
+    # arguments. Production code users `raise ValueError()` for defensive
+    # programming and `assert` for internal checks; but to save you time, we
+    # use `assert` for both in this course.
 
     assert solutions == original + len(additional)
 
