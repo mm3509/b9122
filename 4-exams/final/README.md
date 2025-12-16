@@ -1,16 +1,3 @@
----
-title: 'Final exam (B9122, Computing for Business Research)'
-author: 'Miguel Morin, (c) 2025'
-geometry: margin=2cm
-numbersections: false
-header-includes:
-- \pagenumbering{gobble}
-- \setlength{\parskip}{\baselineskip}
-- \usepackage{hyperref}
-- \usepackage{xcolor}
-- \newcommand{\link}[1]{{\color{blue}\underline{\href{#1}{#1}}}}
----
-
 # Final exam
 
 You asked for more doc-tests, so Python questions now have 6 doc-tests.
