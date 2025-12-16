@@ -1,0 +1,3 @@
+Public Function Diarize(AnnualRate As Double) As Double
+       Diarize = (1 + AnnualRate) ^ (1 / 250) - 1
+End Function

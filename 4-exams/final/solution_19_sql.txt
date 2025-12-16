@@ -1,0 +1,1 @@
+SELECT Name from country where Continent LIKE "A%" AND Population >= 100000000;

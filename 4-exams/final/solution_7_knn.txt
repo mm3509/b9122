@@ -1,0 +1,19 @@
+First we collect data on other public companies, for example:
+
+- Earnings per share (EPS)
+
+- debt-to-assets ratio
+
+- EDBITDA
+
+- number of employees
+
+We can pre-process these variables, for example converting number of employees to logarithms, or other quantities to ratios, to avoid large distances.
+
+We have these for multiple years and can treat each year-company pair as a separate observation.
+
+We put these variables in a matrix X of independent variables, or features. We put the earnings per share in a vector y, the dependent variable, or outcome.
+
+We train a k-Nearest Neighbors algorithm on this data, for examle with 1, 5 or 10 neighbors. The distance is the Euclidean distance across all features, like Pandora.
+
+Then, we ask the fit k-Nearest Neighbors model to find the 1, 3, or 5-nearest neighbor(s) to the company at hand, and average the values of their EPS. This is our model's prediction for the company's EPS, based on the most similar companies in our dataset to the target company Z in 2026.
