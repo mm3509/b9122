@@ -151,7 +151,7 @@ Markdown is my alternative to Word documents, and is also the format of this exa
 
 Use case: You meet clients regularly and take notes in Markdown format, where a line starting with `# 15 October 2025` is a *heading*, and the lines after that (which don't start with `# `) are the contents from that meeting. When you started taking these notes, you added new meetings to the start of the file (most recent first, similar to a CRM like HubSpot). Now you changed systems and want to add new days to the bottom of the file (most recent last). To maintain a chronological order, you need to invert the order of your existing documents.
 
-This function inverts a Markdown document by level-1 headings (which start with `# `): the last heading moves to the top, the second-to-last heading moves to second place, etc., and the first heading moves to the bottom.
+This function inverts a Markdown document by level-1 headings (which start with `# `): the last heading moves to the top, the second-to-last heading moves to second place, etc., and the first heading moves to the bottom. The content of the heading should remain intact: do not change anything in it (for example, do not remove newlines).
 
 Remember: like in two previous assignments, a newline in Python is denoted `\n`, but in doc-tests, the escape character `\` has to be escaped as well. Therefore, newlines in doc-strings appear as `\\n`, but if you copy the code in the doc-tests to the main script, then you have to replace `\\n` with `\n`.
 

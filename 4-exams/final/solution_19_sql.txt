@@ -1,1 +1,4 @@
-SELECT Name from country where Continent LIKE "A%" AND Population >= 100000000;
+SELECT Name from country
+  WHERE Continent LIKE "A%"
+  AND Population >= 100000000
+  ORDER BY Population DESC;
