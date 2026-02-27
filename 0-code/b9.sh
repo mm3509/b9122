@@ -176,13 +176,17 @@ b9-solution () {
     git --no-pager diff --no-index exercise_$1* solution_$1*
 }
 
-b9-mk () {
+b9-miles-to-km () {
     km=$(bc <<< "$1 * 1.609")
     echo "$1 miles = $km km"
 }
 
 b9-midterm-feedback () {
     b9-open-link "https://courseworks2.columbia.edu/courses/232050/quizzes/266349"
+}
+
+b9-xr () {
+    python ~/code/b9122/3-assignments/assignment-1/solution_7_debug.py $@
 }
 
 echo "You have loaded Miguel's code for B9122"
