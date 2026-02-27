@@ -186,7 +186,7 @@ b9-midterm-feedback () {
 }
 
 b9-xr () {
-    python ~/code/b9122/3-assignments/assignment-1/solution_7_debug.py $@
+    python ~/b9122/3-assignments/assignment-1/solution_7_debug.py $@
 }
 
 echo "You have loaded Miguel's code for B9122"
